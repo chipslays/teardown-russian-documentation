@@ -1,8 +1,8 @@
 <h1>
-Teardown scripting API (0.6.2)
+Справочник по API (0.6.2)
 </h1>
 <h2>
-Teardown scripting
+Скриптинг
 </h2>
 <p>
 В качестве языка сценариев Teardown использует Lua версии 5.1. Lua 5.1

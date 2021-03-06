@@ -564,12 +564,12 @@ GetIntParam
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetIntParam(<span class='argname'>name, default</span>)</pre>
 <p>
-Аргументы<br/> <code>name</code> <span
+<b>Аргументы</b><br/> <code>name</code> <span
 class="argtype">(string)</span> – Имя параметра<br/> <span
 class="argname">default</span> <span class="argtype">(number)</span> –
 Значение параметра по умолчанию<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(number)</span> – Значение параметра<br/>
 <p><p>
 </p>
@@ -585,12 +585,12 @@ GetFloatParam
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetFloatParam(<span class='argname'>name, default</span>)</pre>
 <p>
-Аргументы<br/> <code>name</code> <span
+<b>Аргументы</b><br/> <code>name</code> <span
 class="argtype">(string)</span> – Имя параметра<br/> <span
 class="argname">default</span> <span class="argtype">(number)</span> –
 Значение параметра по умолчанию<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(number)</span> – Значение параметра<br/>
 <p><p>
 </p>
@@ -606,12 +606,12 @@ GetBoolParam
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetBoolParam(<span class='argname'>name, default</span>)</pre>
 <p>
-Аргументы<br/> <code>name</code> <span
+<b>Аргументы</b><br/> <code>name</code> <span
 class="argtype">(string)</span> – Имя параметра<br/> <span
 class="argname">default</span> <span class="argtype">(boolean)</span> –
 Значение параметра по умолчанию<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(boolean)</span> – Значение параметра<br/>
 <p><p>
 </p>
@@ -627,12 +627,12 @@ GetStringParam
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetStringParam(<span class='argname'>name, default</span>)</pre>
 <p>
-Аргументы<br/> <code>name</code> <span
+<b>Аргументы</b><br/> <code>name</code> <span
 class="argtype">(string)</span> – Имя параметра<br/> <span
 class="argname">default</span> <span class="argtype">(string)</span> –
 Значение параметра по умолчанию<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(string)</span> – Значение параметра<br/>
 <p><p>
 </p>
@@ -648,9 +648,9 @@ GetVersion
 </h3>
 <pre class='funcdef'><span class='retname'>version = </span>GetVersion(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">version</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">version</span> <span
 class="argtype">(string)</span> – Dot separated string of current
 version of the game<br/>
 <p><p>
@@ -667,10 +667,10 @@ HasVersion
 </h3>
 <pre class='funcdef'><span class='retname'>match = </span>HasVersion(<span class='argname'>version</span>)</pre>
 <p>
-Аргументы<br/> <code>version</code> <span
+<b>Аргументы</b><br/> <code>version</code> <span
 class="argtype">(string)</span> – Reference version<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">match</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">match</span> <span
 class="argtype">(boolean)</span> – True if current version is at least
 provided one<br/>
 <p><p>
@@ -690,9 +690,9 @@ GetTime
 </h3>
 <pre class='funcdef'><span class='retname'>time = </span>GetTime(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">time</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">time</span> <span
 class="argtype">(number)</span> – The time in seconds since level was
 started<br/>
 <p>
@@ -711,9 +711,9 @@ GetTimeStep
 </h3>
 <pre class='funcdef'><span class='retname'>dt = </span>GetTimeStep(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">dt</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">dt</span> <span
 class="argtype">(number)</span> – The timestep in seconds<br/>
 <p>
 Returns timestep of the last frame. If called from update, this returns
@@ -733,10 +733,10 @@ InputPressed
 </h3>
 <pre class='funcdef'><span class='retname'>pressed = </span>InputPressed(<span class='argname'>input</span>)</pre>
 <p>
-Аргументы<br/> <code>input</code> <span
+<b>Аргументы</b><br/> <code>input</code> <span
 class="argtype">(string)</span> – The input identifier<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">pressed</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">pressed</span> <span
 class="argtype">(boolean)</span> – True if input was pressed during last
 frame<br/>
 <p><p>
@@ -754,10 +754,10 @@ InputReleased
 </h3>
 <pre class='funcdef'><span class='retname'>pressed = </span>InputReleased(<span class='argname'>input</span>)</pre>
 <p>
-Аргументы<br/> <code>input</code> <span
+<b>Аргументы</b><br/> <code>input</code> <span
 class="argtype">(string)</span> – The input identifier<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">pressed</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">pressed</span> <span
 class="argtype">(boolean)</span> – True if input was released during
 last frame<br/>
 <p><p>
@@ -775,10 +775,10 @@ InputDown
 </h3>
 <pre class='funcdef'><span class='retname'>pressed = </span>InputDown(<span class='argname'>input</span>)</pre>
 <p>
-Аргументы<br/> <code>input</code> <span
+<b>Аргументы</b><br/> <code>input</code> <span
 class="argtype">(string)</span> – The input identifier<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">pressed</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">pressed</span> <span
 class="argtype">(boolean)</span> – True if input is currently held
 down<br/>
 <p><p>
@@ -796,10 +796,10 @@ InputValue
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>InputValue(<span class='argname'>input</span>)</pre>
 <p>
-Аргументы<br/> <code>input</code> <span
+<b>Аргументы</b><br/> <code>input</code> <span
 class="argtype">(string)</span> – The input identifier<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(number)</span> – Depends on input type<br/>
 <p><p>
 </p>
@@ -814,7 +814,7 @@ SetValue
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetValue(<span class='argname'>variable, value, [transition], [time]</span>)</pre>
 <p>
-Аргументы<br/> <code>variable</code> <span
+<b>Аргументы</b><br/> <code>variable</code> <span
 class="argtype">(string)</span> – Name of number variable in the global
 context<br/> <code>value</code> <span
 class="argtype">(number)</span> – The new value<br/> <span
@@ -823,7 +823,7 @@ optional)</span> – Transition type. See description.<br/> <span
 class="argname">time</span> <span class="argtype">(number,
 optional)</span> – Transition time (seconds)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Set value of a number variable in the global context with an optional
 transition. If a transition is provided the value will animate from
@@ -871,14 +871,14 @@ StartLevel
 </h3>
 <pre class='funcdef'><span class='retname'></span>StartLevel(<span class='argname'>mission, path, [layers]</span>)</pre>
 <p>
-Аргументы<br/> <code>mission</code> <span
+<b>Аргументы</b><br/> <code>mission</code> <span
 class="argtype">(string)</span> – An identifier of your choice<br/>
 <code>path</code> <span class="argtype">(string)</span>
 – Path to level XML file<br/> <code>layers</code> <span
 class="argtype">(string, optional)</span> – Active layers. Default is no
 layers.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Start a level
 <p>
@@ -898,10 +898,10 @@ SetPaused
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetPaused(<span class='argname'>paused</span>)</pre>
 <p>
-Аргументы<br/> <code>paused</code> <span
+<b>Аргументы</b><br/> <code>paused</code> <span
 class="argtype">(boolean)</span> – True if game should be paused<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Set paused state of the game
 <p>
@@ -918,9 +918,9 @@ Restart
 </h3>
 <pre class='funcdef'><span class='retname'></span>Restart(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Restart level
 <p>
@@ -938,9 +938,9 @@ Menu
 </h3>
 <pre class='funcdef'><span class='retname'></span>Menu(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Go to main menu
 <p>
@@ -958,10 +958,10 @@ ClearKey
 </h3>
 <pre class='funcdef'><span class='retname'></span>ClearKey(<span class='argname'>key</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key to clear<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Remove registry node, including all child nodes.
 <p>
@@ -986,10 +986,10 @@ ListKeys
 </h3>
 <pre class='funcdef'><span class='retname'>children = </span>ListKeys(<span class='argname'>parent</span>)</pre>
 <p>
-Аргументы<br/> <code>parent</code> <span
+<b>Аргументы</b><br/> <code>parent</code> <span
 class="argtype">(string)</span> – The parent registry key<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">children</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">children</span> <span
 class="argtype">(table)</span> – Indexed table of strings with child
 keys<br/>
 <p>
@@ -1020,10 +1020,10 @@ HasKey
 </h3>
 <pre class='funcdef'><span class='retname'>exists = </span>HasKey(<span class='argname'>key</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">exists</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">exists</span> <span
 class="argtype">(boolean)</span> – True if key exists<br/>
 <p>
 Returns true if the registry contains a certain key
@@ -1040,12 +1040,12 @@ SetInt
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetInt(<span class='argname'>key, value</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/> <span
 class="argname">value</span> <span class="argtype">(number)</span> –
 Desired value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -1059,10 +1059,10 @@ GetInt
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetInt(<span class='argname'>key</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(number)</span> – Integer value of registry node or zero
 if not found<br/>
 <p><p>
@@ -1078,12 +1078,12 @@ SetFloat
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetFloat(<span class='argname'>key, value</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/> <span
 class="argname">value</span> <span class="argtype">(number)</span> –
 Desired value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -1097,10 +1097,10 @@ GetFloat
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetFloat(<span class='argname'>key</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(number)</span> – Float value of registry node or zero
 if not found<br/>
 <p><p>
@@ -1116,12 +1116,12 @@ SetBool
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetBool(<span class='argname'>key, value</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/> <span
 class="argname">value</span> <span class="argtype">(boolean)</span> –
 Desired value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -1135,10 +1135,10 @@ GetBool
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetBool(<span class='argname'>key</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(boolean)</span> – Boolean value of registry node or
 false if not found<br/>
 <p><p>
@@ -1154,12 +1154,12 @@ SetString
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetString(<span class='argname'>key, value</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/> <span
 class="argname">value</span> <span class="argtype">(string)</span> –
 Desired value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -1173,10 +1173,10 @@ GetString
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetString(<span class='argname'>key</span>)</pre>
 <p>
-Аргументы<br/> <code>key</code> <span
+<b>Аргументы</b><br/> <code>key</code> <span
 class="argtype">(string)</span> – Registry key<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(string)</span> – String value of registry node or "" if
 not found<br/>
 <p><p>
@@ -1192,13 +1192,13 @@ Vec
 </h3>
 <pre class='funcdef'><span class='retname'>vec = </span>Vec(<span class='argname'>[x], [y], [z]</span>)</pre>
 <p>
-Аргументы<br/> <code>x</code> <span
+<b>Аргументы</b><br/> <code>x</code> <span
 class="argtype">(number, optional)</span> – X value<br/> <span
 class="argname">y</span> <span class="argtype">(number, optional)</span>
 – Y value<br/> <code>z</code> <span
 class="argtype">(number, optional)</span> – Z value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">vec</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">vec</span> <span
 class="argtype">(table)</span> – New vector<br/>
 <p>
 Create new vector and optionally initializes it to the provided values.
@@ -1222,10 +1222,10 @@ VecCopy
 </h3>
 <pre class='funcdef'><span class='retname'>new = </span>VecCopy(<span class='argname'>org</span>)</pre>
 <p>
-Аргументы<br/> <code>org</code> <span
+<b>Аргументы</b><br/> <code>org</code> <span
 class="argtype">(table)</span> – A vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">new</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">new</span> <span
 class="argtype">(table)</span> – Copy of org vector<br/>
 <p>
 Vectors should never be assigned like regular numbers. Since they are
@@ -1250,10 +1250,10 @@ VecLength
 </h3>
 <pre class='funcdef'><span class='retname'>length = </span>VecLength(<span class='argname'>vec</span>)</pre>
 <p>
-Аргументы<br/> <code>vec</code> <span
+<b>Аргументы</b><br/> <code>vec</code> <span
 class="argtype">(table)</span> – A vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">length</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">length</span> <span
 class="argtype">(number)</span> – Length (magnitude) of the vector<br/>
 <p><p>
 </p>
@@ -1271,10 +1271,10 @@ VecNormalize
 </h3>
 <pre class='funcdef'><span class='retname'>norm = </span>VecNormalize(<span class='argname'>vec</span>)</pre>
 <p>
-Аргументы<br/> <code>vec</code> <span
+<b>Аргументы</b><br/> <code>vec</code> <span
 class="argtype">(table)</span> – A vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">norm</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">norm</span> <span
 class="argtype">(table)</span> – A vector of length 1.0<br/>
 <p>
 If the input vector is of zero length, the function returns {0,0,1}
@@ -1294,12 +1294,12 @@ VecScale
 </h3>
 <pre class='funcdef'><span class='retname'>norm = </span>VecScale(<span class='argname'>vec, scale</span>)</pre>
 <p>
-Аргументы<br/> <code>vec</code> <span
+<b>Аргументы</b><br/> <code>vec</code> <span
 class="argtype">(table)</span> – A vector<br/> <span
 class="argname">scale</span> <span class="argtype">(number)</span> – A
 scale factor<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">norm</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">norm</span> <span
 class="argtype">(table)</span> – A scaled version of input vector<br/>
 <p><p>
 </p>
@@ -1317,12 +1317,12 @@ VecAdd
 </h3>
 <pre class='funcdef'><span class='retname'>c = </span>VecAdd(<span class='argname'>a, b</span>)</pre>
 <p>
-Аргументы<br/> <code>a</code> <span
+<b>Аргументы</b><br/> <code>a</code> <span
 class="argtype">(table)</span> – Vector<br/> <span
 class="argname">b</span> <span class="argtype">(table)</span> –
 Vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">c</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">c</span> <span
 class="argtype">(table)</span> – New vector with sum of a and b<br/>
 <p><p>
 </p>
@@ -1341,12 +1341,12 @@ VecSub
 </h3>
 <pre class='funcdef'><span class='retname'>c = </span>VecSub(<span class='argname'>a, b</span>)</pre>
 <p>
-Аргументы<br/> <code>a</code> <span
+<b>Аргументы</b><br/> <code>a</code> <span
 class="argtype">(table)</span> – Vector<br/> <span
 class="argname">b</span> <span class="argtype">(table)</span> –
 Vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">c</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">c</span> <span
 class="argtype">(table)</span> – New vector representing a-b<br/>
 <p><p>
 </p>
@@ -1365,12 +1365,12 @@ VecDot
 </h3>
 <pre class='funcdef'><span class='retname'>c = </span>VecDot(<span class='argname'>a, b</span>)</pre>
 <p>
-Аргументы<br/> <code>a</code> <span
+<b>Аргументы</b><br/> <code>a</code> <span
 class="argtype">(table)</span> – Vector<br/> <span
 class="argname">b</span> <span class="argtype">(table)</span> –
 Vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">c</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">c</span> <span
 class="argtype">(number)</span> – Dot product of a and b<br/>
 <p><p>
 </p>
@@ -1389,12 +1389,12 @@ VecCross
 </h3>
 <pre class='funcdef'><span class='retname'>c = </span>VecCross(<span class='argname'>a, b</span>)</pre>
 <p>
-Аргументы<br/> <code>a</code> <span
+<b>Аргументы</b><br/> <code>a</code> <span
 class="argtype">(table)</span> – Vector<br/> <span
 class="argname">b</span> <span class="argtype">(table)</span> –
 Vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">c</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">c</span> <span
 class="argtype">(table)</span> – Cross product of a and b (also called
 vector product)<br/>
 <p><p>
@@ -1414,14 +1414,14 @@ VecLerp
 </h3>
 <pre class='funcdef'><span class='retname'>c = </span>VecLerp(<span class='argname'>a, b, t</span>)</pre>
 <p>
-Аргументы<br/> <code>a</code> <span
+<b>Аргументы</b><br/> <code>a</code> <span
 class="argtype">(table)</span> – Vector<br/> <span
 class="argname">b</span> <span class="argtype">(table)</span> –
 Vector<br/> <code>t</code> <span
 class="argtype">(number)</span> – fraction (usually between 0.0 and
 1.0)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">c</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">c</span> <span
 class="argtype">(table)</span> – Linearly interpolated vector between a
 and b, using t<br/>
 <p><p>
@@ -1445,7 +1445,7 @@ Quat
 </h3>
 <pre class='funcdef'><span class='retname'>quat = </span>Quat(<span class='argname'>[x], [y], [z], [w]</span>)</pre>
 <p>
-Аргументы<br/> <code>x</code> <span
+<b>Аргументы</b><br/> <code>x</code> <span
 class="argtype">(number, optional)</span> – X value<br/> <span
 class="argname">y</span> <span class="argtype">(number, optional)</span>
 – Y value<br/> <code>z</code> <span
@@ -1453,7 +1453,7 @@ class="argtype">(number, optional)</span> – Z value<br/> <span
 class="argname">w</span> <span class="argtype">(number, optional)</span>
 – W value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">quat</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">quat</span> <span
 class="argtype">(table)</span> – New quaternion<br/>
 <p>
 Create new quaternion and optionally initializes it to the provided
@@ -1476,10 +1476,10 @@ QuatCopy
 </h3>
 <pre class='funcdef'><span class='retname'>new = </span>QuatCopy(<span class='argname'>org</span>)</pre>
 <p>
-Аргументы<br/> <code>org</code> <span
+<b>Аргументы</b><br/> <code>org</code> <span
 class="argtype">(table)</span> – Quaternion<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">new</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">new</span> <span
 class="argtype">(table)</span> – Copy of org quaternion<br/>
 <p>
 Quaternions should never be assigned like regular numbers. Since they
@@ -1504,12 +1504,12 @@ QuatAxisAngle
 </h3>
 <pre class='funcdef'><span class='retname'>quat = </span>QuatAxisAngle(<span class='argname'>axis, angle</span>)</pre>
 <p>
-Аргументы<br/> <code>axis</code> <span
+<b>Аргументы</b><br/> <code>axis</code> <span
 class="argtype">(table)</span> – Rotation axis, unit vector<br/> <span
 class="argname">angle</span> <span class="argtype">(number)</span> –
 Rotation angle in degrees<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">quat</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">quat</span> <span
 class="argtype">(table)</span> – New quaternion<br/>
 <p>
 Create a quaternion representing a rotation around a specific axis
@@ -1527,7 +1527,7 @@ QuatEuler
 </h3>
 <pre class='funcdef'><span class='retname'>quat = </span>QuatEuler(<span class='argname'>x, y, z</span>)</pre>
 <p>
-Аргументы<br/> <code>x</code> <span
+<b>Аргументы</b><br/> <code>x</code> <span
 class="argtype">(number)</span> – Angle around X axis in degrees,
 sometimes also called roll or bank<br/> <code>y</code>
 <span class="argtype">(number)</span> – Angle around Y axis in degrees,
@@ -1535,7 +1535,7 @@ sometimes also called yaw or heading<br/> <code>z</code>
 <span class="argtype">(number)</span> – Angle around Z axis in degrees,
 sometimes also called pitch or attitude<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">quat</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">quat</span> <span
 class="argtype">(table)</span> – New quaternion<br/>
 <p>
 Create quaternion using euler angle notation. The order of applied
@@ -1565,13 +1565,13 @@ QuatLookAt
 </h3>
 <pre class='funcdef'><span class='retname'>quat = </span>QuatLookAt(<span class='argname'>eye, target</span>)</pre>
 <p>
-Аргументы<br/> <code>eye</code> <span
+<b>Аргументы</b><br/> <code>eye</code> <span
 class="argtype">(table)</span> – Vector representing the camera
 location<br/> <code>target</code> <span
 class="argtype">(table)</span> – Vector representing the point to look
 at<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">quat</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">quat</span> <span
 class="argtype">(table)</span> – New quaternion<br/>
 <p>
 Create a quaternion pointing the negative Z axis (forward) towards a
@@ -1593,14 +1593,14 @@ QuatSlerp
 </h3>
 <pre class='funcdef'><span class='retname'>c = </span>QuatSlerp(<span class='argname'>a, b, t</span>)</pre>
 <p>
-Аргументы<br/> <code>a</code> <span
+<b>Аргументы</b><br/> <code>a</code> <span
 class="argtype">(table)</span> – Quaternion<br/> <span
 class="argname">b</span> <span class="argtype">(table)</span> –
 Quaternion<br/> <code>t</code> <span
 class="argtype">(number)</span> – fraction (usually between 0.0 and
 1.0)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">c</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">c</span> <span
 class="argtype">(table)</span> – New quaternion<br/>
 <p>
 Spherical, linear interpolation between a and b, using t. This is very
@@ -1622,12 +1622,12 @@ QuatRotateQuat
 </h3>
 <pre class='funcdef'><span class='retname'>c = </span>QuatRotateQuat(<span class='argname'>a, b</span>)</pre>
 <p>
-Аргументы<br/> <code>a</code> <span
+<b>Аргументы</b><br/> <code>a</code> <span
 class="argtype">(table)</span> – Quaternion<br/> <span
 class="argname">b</span> <span class="argtype">(table)</span> –
 Quaternion<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">c</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">c</span> <span
 class="argtype">(table)</span> – New quaternion<br/>
 <p>
 Rotate one quaternion with another quaternion. This is mathematically
@@ -1650,13 +1650,13 @@ Transform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>Transform(<span class='argname'>[pos], [rot]</span>)</pre>
 <p>
-Аргументы<br/> <code>pos</code> <span
+<b>Аргументы</b><br/> <code>pos</code> <span
 class="argtype">(table, optional)</span> – Vector representing transform
 position<br/> <code>rot</code> <span
 class="argtype">(table, optional)</span> – Quaternion representing
 transform rotation<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – New transform<br/>
 <p>
 A transform is a regular lua table with two entries: pos and rot, a
@@ -1681,10 +1681,10 @@ TransformCopy
 </h3>
 <pre class='funcdef'><span class='retname'>new = </span>TransformCopy(<span class='argname'>org</span>)</pre>
 <p>
-Аргументы<br/> <code>org</code> <span
+<b>Аргументы</b><br/> <code>org</code> <span
 class="argtype">(table)</span> – Transform<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">new</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">new</span> <span
 class="argtype">(table)</span> – Copy of org transform<br/>
 <p>
 Transforms should never be assigned like regular numbers. Since they are
@@ -1709,12 +1709,12 @@ TransformToParentTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>TransformToParentTransform(<span class='argname'>parent, child</span>)</pre>
 <p>
-Аргументы<br/> <code>parent</code> <span
+<b>Аргументы</b><br/> <code>parent</code> <span
 class="argtype">(table)</span> – Transform<br/> <span
 class="argname">child</span> <span class="argtype">(table)</span> –
 Transform<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – New transform<br/>
 <p>
 Transform child transform out of the parent transform. This is the
@@ -1740,12 +1740,12 @@ TransformToLocalTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>TransformToLocalTransform(<span class='argname'>parent, child</span>)</pre>
 <p>
-Аргументы<br/> <code>parent</code> <span
+<b>Аргументы</b><br/> <code>parent</code> <span
 class="argtype">(table)</span> – Transform<br/> <span
 class="argname">child</span> <span class="argtype">(table)</span> –
 Transform<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – New transform<br/>
 <p>
 Transform one transform into the local space of another transform. This
@@ -1771,12 +1771,12 @@ TransformToParentVec
 </h3>
 <pre class='funcdef'><span class='retname'>r = </span>TransformToParentVec(<span class='argname'>t, v</span>)</pre>
 <p>
-Аргументы<br/> <code>t</code> <span
+<b>Аргументы</b><br/> <code>t</code> <span
 class="argtype">(table)</span> – Transform<br/> <span
 class="argname">v</span> <span class="argtype">(table)</span> –
 Vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">r</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">r</span> <span
 class="argtype">(table)</span> – Transformed vector<br/>
 <p>
 Transfom vector v out of transform t only considering rotation.
@@ -1797,12 +1797,12 @@ TransformToLocalVec
 </h3>
 <pre class='funcdef'><span class='retname'>r = </span>TransformToLocalVec(<span class='argname'>t, v</span>)</pre>
 <p>
-Аргументы<br/> <code>t</code> <span
+<b>Аргументы</b><br/> <code>t</code> <span
 class="argtype">(table)</span> – Transform<br/> <span
 class="argname">v</span> <span class="argtype">(table)</span> –
 Vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">r</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">r</span> <span
 class="argtype">(table)</span> – Transformed vector<br/>
 <p>
 Transfom vector v into transform t only considering rotation.
@@ -1823,12 +1823,12 @@ TransformToParentPoint
 </h3>
 <pre class='funcdef'><span class='retname'>r = </span>TransformToParentPoint(<span class='argname'>t, p</span>)</pre>
 <p>
-Аргументы<br/> <code>t</code> <span
+<b>Аргументы</b><br/> <code>t</code> <span
 class="argtype">(table)</span> – Transform<br/> <span
 class="argname">p</span> <span class="argtype">(table)</span> – Vector
 representing position<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">r</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">r</span> <span
 class="argtype">(table)</span> – Transformed position<br/>
 <p>
 Transfom position p out of transform t.
@@ -1849,12 +1849,12 @@ TransformToLocalPoint
 </h3>
 <pre class='funcdef'><span class='retname'>r = </span>TransformToLocalPoint(<span class='argname'>t, p</span>)</pre>
 <p>
-Аргументы<br/> <code>t</code> <span
+<b>Аргументы</b><br/> <code>t</code> <span
 class="argtype">(table)</span> – Transform<br/> <span
 class="argname">p</span> <span class="argtype">(table)</span> – Vector
 representing position<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">r</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">r</span> <span
 class="argtype">(table)</span> – Transformed position<br/>
 <p>
 Transfom position p into transform t.
@@ -1875,13 +1875,13 @@ SetTag
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetTag(<span class='argname'>handle, tag, [value]</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Entity handle<br/> <span
 class="argname">tag</span> <span class="argtype">(string)</span> – Tag
 name<br/> <code>value</code> <span
 class="argtype">(string, optional)</span> – Tag value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -1899,12 +1899,12 @@ RemoveTag
 </h3>
 <pre class='funcdef'><span class='retname'></span>RemoveTag(<span class='argname'>handle, tag</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Entity handle<br/> <span
 class="argname">tag</span> <span class="argtype">(string)</span> – Tag
 name<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Remove tag from an entity. If the tag had a value it is removed too.
 <p>
@@ -1920,12 +1920,12 @@ HasTag
 </h3>
 <pre class='funcdef'><span class='retname'>exists = </span>HasTag(<span class='argname'>handle, tag</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Entity handle<br/> <span
 class="argname">tag</span> <span class="argtype">(string)</span> – Tag
 name<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">exists</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">exists</span> <span
 class="argtype">(boolean)</span> – Returns true if entity has tag<br/>
 <p><p>
 </p>
@@ -1942,12 +1942,12 @@ GetTagValue
 </h3>
 <pre class='funcdef'><span class='retname'>value = </span>GetTagValue(<span class='argname'>handle, tag</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Entity handle<br/> <span
 class="argname">tag</span> <span class="argtype">(string)</span> – Tag
 name<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(string)</span> – Returns the tag value, if any. Empty
 string otherwise.<br/>
 <p><p>
@@ -1970,10 +1970,10 @@ GetDescription
 </h3>
 <pre class='funcdef'><span class='retname'>description = </span>GetDescription(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Entity handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">description</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">description</span> <span
 class="argtype">(string)</span> – The description string<br/>
 <p>
 All entities can have an associated description. For bodies and shapes
@@ -1992,12 +1992,12 @@ SetDescription
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetDescription(<span class='argname'>handle, description</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Entity handle<br/> <span
 class="argname">description</span> <span class="argtype">(string)</span>
 – The description string<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 All entities can have an associated description. The description for
 bodies and shapes will show up on the HUD when looking at them.
@@ -2014,10 +2014,10 @@ Delete
 </h3>
 <pre class='funcdef'><span class='retname'></span>Delete(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Entity handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Remove an entity from the scene. All entities owned by this entity will
 also be removed.
@@ -2035,10 +2035,10 @@ IsHandleValid
 </h3>
 <pre class='funcdef'><span class='retname'>exists = </span>IsHandleValid(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Entity handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">exists</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">exists</span> <span
 class="argtype">(boolean)</span> – Returns true if the entity pointed to
 by handle still exists<br/>
 <p><p>
@@ -2061,12 +2061,12 @@ FindBody
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>FindBody(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to first body with specified
 tag or zero if not found<br/>
 <p><p>
@@ -2086,12 +2086,12 @@ FindBodies
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>FindBodies(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 bodies with specified tag<br/>
 <p><p>
@@ -2112,10 +2112,10 @@ GetBodyTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetBodyTransform(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Transform of the body<br/>
 <p><p>
 </p>
@@ -2130,12 +2130,12 @@ SetBodyTransform
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetBodyTransform(<span class='argname'>handle, transform</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/> <span
 class="argname">transform</span> <span class="argtype">(table)</span> –
 Desired transform<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -2152,10 +2152,10 @@ GetBodyMass
 </h3>
 <pre class='funcdef'><span class='retname'>mass = </span>GetBodyMass(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">mass</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">mass</span> <span
 class="argtype">(number)</span> – Body mass. Static bodies always return
 zero mass.<br/>
 <p><p>
@@ -2171,10 +2171,10 @@ IsBodyDynamic
 </h3>
 <pre class='funcdef'><span class='retname'>dynamic = </span>IsBodyDynamic(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">dynamic</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">dynamic</span> <span
 class="argtype">(boolean)</span> – Return true if body is dynamic<br/>
 <p>
 Check if body is dynamic. Note that something that was created static
@@ -2192,12 +2192,12 @@ SetBodyDynamic
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetBodyDynamic(<span class='argname'>handle, dynamic</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/> <span
 class="argname">dynamic</span> <span class="argtype">(boolean)</span> –
 True for dynamic. False for static.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Change the dynamic state of a body. There is very limited use for this
 function. In most situations you should leave it up to the engine to
@@ -2215,12 +2215,12 @@ SetBodyVelocity
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetBodyVelocity(<span class='argname'>handle, velocity</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle (should be a dynamic
 body)<br/> <code>velocity</code> <span
 class="argtype">(table)</span> – Vector with linear velocity<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 This can be used for animating bodies with preserved physical
 interaction, but in most cases you are better off with a motorized joint
@@ -2239,11 +2239,11 @@ GetBodyVelocity
 </h3>
 <pre class='funcdef'><span class='retname'>velocity = </span>GetBodyVelocity(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle (should be a dynamic
 body)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">velocity</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">velocity</span> <span
 class="argtype">(table)</span> – Linear velocity as vector<br/>
 <p><p>
 </p>
@@ -2258,12 +2258,12 @@ GetBodyVelocityAtPos
 </h3>
 <pre class='funcdef'><span class='retname'>velocity = </span>GetBodyVelocityAtPos(<span class='argname'>handle, pos</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle (should be a dynamic
 body)<br/> <code>pos</code> <span
 class="argtype">(table)</span> – World space point as vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">velocity</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">velocity</span> <span
 class="argtype">(table)</span> – Linear velocity on body at pos as
 vector<br/>
 <p>
@@ -2282,12 +2282,12 @@ SetBodyAngularVelocity
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetBodyAngularVelocity(<span class='argname'>handle, angVel</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle (should be a dynamic
 body)<br/> <code>angVel</code> <span
 class="argtype">(table)</span> – Vector with angular velocity<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 This can be used for animating bodies with preserved physical
 interaction, but in most cases you are better off with a motorized joint
@@ -2306,11 +2306,11 @@ GetBodyAngularVelocity
 </h3>
 <pre class='funcdef'><span class='retname'>angVel = </span>GetBodyAngularVelocity(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle (should be a dynamic
 body)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">angVel</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">angVel</span> <span
 class="argtype">(table)</span> – Angular velocity as vector<br/>
 <p><p>
 </p>
@@ -2325,10 +2325,10 @@ IsBodyActive
 </h3>
 <pre class='funcdef'><span class='retname'>active = </span>IsBodyActive(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">active</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">active</span> <span
 class="argtype">(boolean)</span> – Return true if body is active<br/>
 <p>
 Check if body is body is currently simulated. For performance reasons,
@@ -2350,14 +2350,14 @@ ApplyBodyImpulse
 </h3>
 <pre class='funcdef'><span class='retname'></span>ApplyBodyImpulse(<span class='argname'>handle, position, velocity</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle (should be a dynamic
 body)<br/> <code>position</code> <span
 class="argtype">(table)</span> – World space position as vector<br/>
 <code>velocity</code> <span
 class="argtype">(table)</span> – World space impulse as vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Apply impulse to dynamic body at position (give body a push).
 <p>
@@ -2375,10 +2375,10 @@ GetBodyShapes
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>GetBodyShapes(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table of shape handles<br/>
 <p>
 Return handles to all shapes owned by a body
@@ -2398,10 +2398,10 @@ GetBodyVehicle
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetBodyVehicle(<span class='argname'>body</span>)</pre>
 <p>
-Аргументы<br/> <code>body</code> <span
+<b>Аргументы</b><br/> <code>body</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Get parent vehicle for body, or zero
 if not part of vehicle<br/>
 <p><p>
@@ -2417,10 +2417,10 @@ GetBodyBounds
 </h3>
 <pre class='funcdef'><span class='retname'>min, max = </span>GetBodyBounds(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">min</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">min</span> <span
 class="argtype">(table)</span> – Vector representing the AABB lower
 bound<br/> <span class="retname">max</span> <span
 class="argtype">(table)</span> – Vector representing the AABB upper
@@ -2442,10 +2442,10 @@ GetBodyCenterOfMass
 </h3>
 <pre class='funcdef'><span class='retname'>point = </span>GetBodyCenterOfMass(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">point</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">point</span> <span
 class="argtype">(table)</span> – Vector representing local center of
 mass in body space<br/>
 <p><p>
@@ -2464,7 +2464,7 @@ IsBodyVisible
 </h3>
 <pre class='funcdef'><span class='retname'>visible = </span>IsBodyVisible(<span class='argname'>handle, maxDist, [rejectTransparent]</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/> <span
 class="argname">maxDist</span> <span class="argtype">(number)</span> –
 Maximum visible distance<br/> <span
@@ -2472,7 +2472,7 @@ class="argname">rejectTransparent</span> <span class="argtype">(boolean,
 optional)</span> – See through transparent materials. Default
 false.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">visible</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">visible</span> <span
 class="argtype">(boolean)</span> – Return true if body is visible<br/>
 <p>
 This will check if a body is currently visible in the camera frustum and
@@ -2492,10 +2492,10 @@ IsBodyBroken
 </h3>
 <pre class='funcdef'><span class='retname'>broken = </span>IsBodyBroken(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">broken</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">broken</span> <span
 class="argtype">(boolean)</span> – Return true if body is broken<br/>
 <p>
 Determine if any shape of a body has been broken.
@@ -2512,10 +2512,10 @@ IsBodyJointedToStatic
 </h3>
 <pre class='funcdef'><span class='retname'>result = </span>IsBodyJointedToStatic(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">result</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">result</span> <span
 class="argtype">(boolean)</span> – Return true if body is in any way
 connected to a static body<br/>
 <p>
@@ -2535,7 +2535,7 @@ DrawBodyOutline
 </h3>
 <pre class='funcdef'><span class='retname'></span>DrawBodyOutline(<span class='argname'>handle, [r], [g], [b], a</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/> <span
 class="argname">r</span> <span class="argtype">(number, optional)</span>
 – Red<br/> <code>g</code> <span class="argtype">(number,
@@ -2544,7 +2544,7 @@ class="argtype">(number, optional)</span> – Blue<br/> <span
 class="argname">a</span> <span class="argtype">(number)</span> –
 Alpha<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Render next frame with an outline around specified body. If no color is
 given, a white outline will be drawn.
@@ -2565,12 +2565,12 @@ DrawBodyHighlight
 </h3>
 <pre class='funcdef'><span class='retname'></span>DrawBodyHighlight(<span class='argname'>handle, amount</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Body handle<br/> <span
 class="argname">amount</span> <span class="argtype">(number)</span> –
 Amount<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Flash the appearance of a body when rendering this frame. This is used
 for valuables in the game.
@@ -2587,12 +2587,12 @@ FindShape
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>FindShape(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to first shape with specified
 tag or zero if not found<br/>
 <p><p>
@@ -2612,12 +2612,12 @@ FindShapes
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>FindShapes(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 shapes with specified tag<br/>
 <p><p>
@@ -2638,10 +2638,10 @@ GetShapeLocalTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetShapeLocalTransform(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Return shape transform in body
 space<br/>
 <p><p>
@@ -2664,12 +2664,12 @@ SetShapeLocalTransform
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetShapeLocalTransform(<span class='argname'>handle, transform</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/> <span
 class="argname">transform</span> <span class="argtype">(table)</span> –
 Shape transform in body space<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -2684,10 +2684,10 @@ GetShapeWorldTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetShapeWorldTransform(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Return shape transform in world
 space<br/>
 <p>
@@ -2710,10 +2710,10 @@ GetShapeBody
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetShapeBody(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
 Get handle to the body this shape is owned by. A shape is always owned
@@ -2731,10 +2731,10 @@ GetShapeJoints
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>GetShapeJoints(<span class='argname'>shape</span>)</pre>
 <p>
-Аргументы<br/> <code>shape</code> <span
+<b>Аргументы</b><br/> <code>shape</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with joints connected to
 shape<br/>
 <p><p>
@@ -2754,10 +2754,10 @@ GetShapeLights
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>GetShapeLights(<span class='argname'>shape</span>)</pre>
 <p>
-Аргументы<br/> <code>shape</code> <span
+<b>Аргументы</b><br/> <code>shape</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table of lights owned by
 shape<br/>
 <p><p>
@@ -2777,10 +2777,10 @@ GetShapeBounds
 </h3>
 <pre class='funcdef'><span class='retname'>min, max = </span>GetShapeBounds(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">min</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">min</span> <span
 class="argtype">(table)</span> – Vector representing the AABB lower
 bound<br/> <span class="retname">max</span> <span
 class="argtype">(table)</span> – Vector representing the AABB upper
@@ -2802,12 +2802,12 @@ SetShapeEmissiveScale
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetShapeEmissiveScale(<span class='argname'>handle, scale</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/> <span
 class="argname">scale</span> <span class="argtype">(number)</span> –
 Scale factor for emissiveness<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Scale emissiveness for shape. If the shape has light sources attached,
 their intensity will be scaled by the same amount.
@@ -2826,12 +2826,12 @@ GetShapeMaterialAtPosition
 </h3>
 <pre class='funcdef'><span class='retname'>type, r, g, b, a = </span>GetShapeMaterialAtPosition(<span class='argname'>handle, pos</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/> <span
 class="argname">pos</span> <span class="argtype">(table)</span> –
 Position in world space<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">type</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">type</span> <span
 class="argtype">(string)</span> – Material type<br/> <span
 class="retname">r</span> <span class="argtype">(number)</span> –
 Red<br/> <span class="retname">g</span> <span
@@ -2859,10 +2859,10 @@ GetShapeSize
 </h3>
 <pre class='funcdef'><span class='retname'>xsize, ysize, zsize = </span>GetShapeSize(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">xsize</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">xsize</span> <span
 class="argtype">(number)</span> – Size in voxels along x axis<br/> <span
 class="retname">ysize</span> <span class="argtype">(number)</span> –
 Size in voxels along y axis<br/> <span class="retname">zsize</span>
@@ -2882,10 +2882,10 @@ GetShapeVoxelCount
 </h3>
 <pre class='funcdef'><span class='retname'>count = </span>GetShapeVoxelCount(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">count</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">count</span> <span
 class="argtype">(number)</span> – Number of voxels in shape<br/>
 <p>
 Return the number of voxels in a shape, not including empty space
@@ -2902,7 +2902,7 @@ IsShapeVisible
 </h3>
 <pre class='funcdef'><span class='retname'>visible = </span>IsShapeVisible(<span class='argname'>handle, maxDist, [rejectTransparent]</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/> <span
 class="argname">maxDist</span> <span class="argtype">(number)</span> –
 Maximum visible distance<br/> <span
@@ -2910,7 +2910,7 @@ class="argname">rejectTransparent</span> <span class="argtype">(boolean,
 optional)</span> – See through transparent materials. Default
 false.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">visible</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">visible</span> <span
 class="argtype">(boolean)</span> – Return true if shape is visible<br/>
 <p>
 This will check if a shape is currently visible in the camera frustum
@@ -2930,10 +2930,10 @@ IsShapeBroken
 </h3>
 <pre class='funcdef'><span class='retname'>broken = </span>IsShapeBroken(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">broken</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">broken</span> <span
 class="argtype">(boolean)</span> – Return true if shape is broken<br/>
 <p>
 Determine if shape has been broken. Note that a shape can be transfered
@@ -2952,7 +2952,7 @@ DrawShapeOutline
 </h3>
 <pre class='funcdef'><span class='retname'></span>DrawShapeOutline(<span class='argname'>handle, [r], [g], [b], a</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/> <span
 class="argname">r</span> <span class="argtype">(number, optional)</span>
 – Red<br/> <code>g</code> <span class="argtype">(number,
@@ -2961,7 +2961,7 @@ class="argtype">(number, optional)</span> – Blue<br/> <span
 class="argname">a</span> <span class="argtype">(number)</span> –
 Alpha<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Render next frame with an outline around specified shape. If no color is
 given, a white outline will be drawn.
@@ -2982,12 +2982,12 @@ DrawShapeHighlight
 </h3>
 <pre class='funcdef'><span class='retname'></span>DrawShapeHighlight(<span class='argname'>handle, amount</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Shape handle<br/> <span
 class="argname">amount</span> <span class="argtype">(number)</span> –
 Amount<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Flash the appearance of a shape when rendering this frame.
 <p>
@@ -3003,12 +3003,12 @@ FindLocation
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>FindLocation(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to first location with
 specified tag or zero if not found<br/>
 <p><p>
@@ -3024,12 +3024,12 @@ FindLocations
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>FindLocations(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 locations with specified tag<br/>
 <p><p>
@@ -3050,10 +3050,10 @@ GetLocationTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetLocationTransform(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Location handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Transform of the location<br/>
 <p><p>
 </p>
@@ -3068,12 +3068,12 @@ FindJoint
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>FindJoint(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to first joint with specified
 tag or zero if not found<br/>
 <p><p>
@@ -3089,12 +3089,12 @@ FindJoints
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>FindJoints(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 joints with specified tag<br/>
 <p><p>
@@ -3115,10 +3115,10 @@ IsJointBroken
 </h3>
 <pre class='funcdef'><span class='retname'>broken = </span>IsJointBroken(<span class='argname'>joint</span>)</pre>
 <p>
-Аргументы<br/> <code>joint</code> <span
+<b>Аргументы</b><br/> <code>joint</code> <span
 class="argtype">(number)</span> – Joint handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">broken</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">broken</span> <span
 class="argtype">(boolean)</span> – True if joint is broken<br/>
 <p><p>
 </p>
@@ -3133,10 +3133,10 @@ GetJointType
 </h3>
 <pre class='funcdef'><span class='retname'>type = </span>GetJointType(<span class='argname'>joint</span>)</pre>
 <p>
-Аргументы<br/> <code>joint</code> <span
+<b>Аргументы</b><br/> <code>joint</code> <span
 class="argtype">(number)</span> – Joint handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">type</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">type</span> <span
 class="argtype">(string)</span> – Joint type<br/>
 <p>
 Joint type is one of the following: "ball", "hinge", "prismatic" or
@@ -3156,12 +3156,12 @@ GetJointOtherShape
 </h3>
 <pre class='funcdef'><span class='retname'>other = </span>GetJointOtherShape(<span class='argname'>joint, shape</span>)</pre>
 <p>
-Аргументы<br/> <code>joint</code> <span
+<b>Аргументы</b><br/> <code>joint</code> <span
 class="argtype">(number)</span> – Joint handle<br/> <span
 class="argname">shape</span> <span class="argtype">(number)</span> –
 Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">other</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">other</span> <span
 class="argtype">(number)</span> – Other shape handle<br/>
 <p>
 A joint is always connected to two shapes. Use this function if you know
@@ -3185,14 +3185,14 @@ SetJointMotor
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetJointMotor(<span class='argname'>joint, velocity, [strength]</span>)</pre>
 <p>
-Аргументы<br/> <code>joint</code> <span
+<b>Аргументы</b><br/> <code>joint</code> <span
 class="argtype">(number)</span> – Joint handle<br/> <span
 class="argname">velocity</span> <span class="argtype">(number)</span> –
 Desired velocity<br/> <code>strength</code> <span
 class="argtype">(number, optional)</span> – Desired strength. Default is
 infinite. Zero to disable.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Set joint motor target velocity. If joint is of type hinge, velocity is
 given in radians per second angular velocity. If joint type is prismatic
@@ -3212,7 +3212,7 @@ SetJointMotorTarget
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetJointMotorTarget(<span class='argname'>joint, target, [maxVel], [strength]</span>)</pre>
 <p>
-Аргументы<br/> <code>joint</code> <span
+<b>Аргументы</b><br/> <code>joint</code> <span
 class="argtype">(number)</span> – Joint handle<br/> <span
 class="argname">target</span> <span class="argtype">(number)</span> –
 Desired movement target<br/> <code>maxVel</code> <span
@@ -3221,7 +3221,7 @@ target. Default is infinite.<br/> <code>strength</code>
 <span class="argtype">(number, optional)</span> – Desired strength.
 Default is infinite. Zero to disable.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 If a joint has a motor target, it will try to maintain its relative
 movement. This is very useful for elevators or other animated, jointed
@@ -3244,10 +3244,10 @@ GetJointLimits
 </h3>
 <pre class='funcdef'><span class='retname'>min, max = </span>GetJointLimits(<span class='argname'>joint</span>)</pre>
 <p>
-Аргументы<br/> <code>joint</code> <span
+<b>Аргументы</b><br/> <code>joint</code> <span
 class="argtype">(number)</span> – Joint handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">min</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">min</span> <span
 class="argtype">(number)</span> – Minimum joint limit (angle or
 distance)<br/> <span class="retname">max</span> <span
 class="argtype">(number)</span> – Maximum joint limit (angle or
@@ -3268,10 +3268,10 @@ GetJointMovement
 </h3>
 <pre class='funcdef'><span class='retname'>movement = </span>GetJointMovement(<span class='argname'>joint</span>)</pre>
 <p>
-Аргументы<br/> <code>joint</code> <span
+<b>Аргументы</b><br/> <code>joint</code> <span
 class="argtype">(number)</span> – Joint handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">movement</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">movement</span> <span
 class="argtype">(number)</span> – Current joint position or angle<br/>
 <p>
 Return the current position or angle or the joint, measured in same way
@@ -3289,12 +3289,12 @@ FindLight
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>FindLight(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to first light with specified
 tag or zero if not found<br/>
 <p><p>
@@ -3310,12 +3310,12 @@ FindLights
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>FindLights(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 lights with specified tag<br/>
 <p><p>
@@ -3336,12 +3336,12 @@ SetLightEnabled
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetLightEnabled(<span class='argname'>handle, enabled</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Light handle<br/> <span
 class="argname">enabled</span> <span class="argtype">(boolean)</span> –
 Set to true if light should be enabled<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 If light is owned by a shape, the emissive scale of that shape will be
 set to 0.0 when light is disabled and 1.0 when light is enabled.
@@ -3358,7 +3358,7 @@ SetLightColor
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetLightColor(<span class='argname'>handle, r, g, b</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Light handle<br/> <span
 class="argname">r</span> <span class="argtype">(number)</span> – Red
 value<br/> <code>g</code> <span
@@ -3366,7 +3366,7 @@ class="argtype">(number)</span> – Green value<br/> <span
 class="argname">b</span> <span class="argtype">(number)</span> – Blue
 value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 This will only set the color tint of the light. Use SetLightIntensity
 for brightness. Setting the light color will not affect the emissive
@@ -3385,12 +3385,12 @@ SetLightIntensity
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetLightIntensity(<span class='argname'>handle, intensity</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Light handle<br/> <span
 class="argname">intensity</span> <span class="argtype">(number)</span> –
 Desired intensity of the light<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 If the shape is owned by a shape you most likely want to use
 SetShapeEmissiveScale instead, which will affect both the emissiveness
@@ -3409,10 +3409,10 @@ GetLightTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetLightTransform(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Light handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – World space light transform<br/>
 <p>
 Lights that are owned by a dynamic shape are automatcially moved with
@@ -3430,10 +3430,10 @@ GetLightShape
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetLightShape(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Light handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Shape handle or zero if not attached
 to shape<br/>
 <p><p>
@@ -3449,12 +3449,12 @@ IsPointAffectedByLight
 </h3>
 <pre class='funcdef'><span class='retname'>affected = </span>IsPointAffectedByLight(<span class='argname'>handle, point</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Light handle<br/> <span
 class="argname">point</span> <span class="argtype">(table)</span> –
 World space point as vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">affected</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">affected</span> <span
 class="argtype">(boolean)</span> – Return true if point is in light cone
 and range<br/>
 <p><p>
@@ -3471,12 +3471,12 @@ FindTrigger
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>FindTrigger(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to first trigger with specified
 tag or zero if not found<br/>
 <p><p>
@@ -3492,12 +3492,12 @@ FindTriggers
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>FindTriggers(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 triggers with specified tag<br/>
 <p><p>
@@ -3518,10 +3518,10 @@ GetTriggerTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetTriggerTransform(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Trigger handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Current trigger transform in world
 space<br/>
 <p><p>
@@ -3537,12 +3537,12 @@ SetTriggerTransform
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetTriggerTransform(<span class='argname'>handle, transform</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Trigger handle<br/> <span
 class="argname">transform</span> <span class="argtype">(table)</span> –
 Desired trigger transform in world space<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -3557,12 +3557,12 @@ IsBodyInTrigger
 </h3>
 <pre class='funcdef'><span class='retname'></span>IsBodyInTrigger(<span class='argname'>trigger, body</span>)</pre>
 <p>
-Аргументы<br/> <code>trigger</code> <span
+<b>Аргументы</b><br/> <code>trigger</code> <span
 class="argtype">(number)</span> – Trigger handle<br/> <span
 class="argname">body</span> <span class="argtype">(number)</span> – Body
 handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 This function will only check the center point of the body
 <p>
@@ -3580,12 +3580,12 @@ IsVehicleInTrigger
 </h3>
 <pre class='funcdef'><span class='retname'></span>IsVehicleInTrigger(<span class='argname'>trigger, vehicle</span>)</pre>
 <p>
-Аргументы<br/> <code>trigger</code> <span
+<b>Аргументы</b><br/> <code>trigger</code> <span
 class="argtype">(number)</span> – Trigger handle<br/> <span
 class="argname">vehicle</span> <span class="argtype">(number)</span> –
 Vehicle handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 This function will only check origo of vehicle
 <p>
@@ -3603,12 +3603,12 @@ IsShapeInTrigger
 </h3>
 <pre class='funcdef'><span class='retname'></span>IsShapeInTrigger(<span class='argname'>trigger, shape</span>)</pre>
 <p>
-Аргументы<br/> <code>trigger</code> <span
+<b>Аргументы</b><br/> <code>trigger</code> <span
 class="argtype">(number)</span> – Trigger handle<br/> <span
 class="argname">shape</span> <span class="argtype">(number)</span> –
 Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 This function will only check the center point of the shape
 <p>
@@ -3626,12 +3626,12 @@ IsPointInTrigger
 </h3>
 <pre class='funcdef'><span class='retname'></span>IsPointInTrigger(<span class='argname'>trigger, point</span>)</pre>
 <p>
-Аргументы<br/> <code>trigger</code> <span
+<b>Аргументы</b><br/> <code>trigger</code> <span
 class="argtype">(number)</span> – Trigger handle<br/> <span
 class="argname">point</span> <span class="argtype">(table)</span> – Word
 space point as vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -3648,12 +3648,12 @@ IsTriggerEmpty
 </h3>
 <pre class='funcdef'><span class='retname'>empty, maxpoint = </span>IsTriggerEmpty(<span class='argname'>handle, [demolision]</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Trigger handle<br/> <span
 class="argname">demolision</span> <span class="argtype">(boolean,
 optional)</span> – If true, small debris and vehicles are ignored<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">empty</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">empty</span> <span
 class="argtype">(boolean)</span> – True if trigger is empty<br/> <span
 class="retname">maxpoint</span> <span class="argtype">(table)</span> –
 World space point of highest point (largest Y coordinate) if not
@@ -3678,12 +3678,12 @@ FindScreen
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>FindScreen(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to first screen with specified
 tag or zero if not found<br/>
 <p><p>
@@ -3699,12 +3699,12 @@ FindScreens
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>FindScreens(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 screens with specified tag<br/>
 <p><p>
@@ -3725,12 +3725,12 @@ SetScreenEnabled
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetScreenEnabled(<span class='argname'>screen, enabled</span>)</pre>
 <p>
-Аргументы<br/> <code>screen</code> <span
+<b>Аргументы</b><br/> <code>screen</code> <span
 class="argtype">(number)</span> – Screen handle<br/> <span
 class="argname">enabled</span> <span class="argtype">(boolean)</span> –
 True if screen should be enabled<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Enable or disable screen
 <p>
@@ -3746,10 +3746,10 @@ IsScreenEnabled
 </h3>
 <pre class='funcdef'><span class='retname'>enabled = </span>IsScreenEnabled(<span class='argname'>screen</span>)</pre>
 <p>
-Аргументы<br/> <code>screen</code> <span
+<b>Аргументы</b><br/> <code>screen</code> <span
 class="argtype">(number)</span> – Screen handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">enabled</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">enabled</span> <span
 class="argtype">(boolean)</span> – True if screen is enabled<br/>
 <p><p>
 </p>
@@ -3764,10 +3764,10 @@ GetScreenShape
 </h3>
 <pre class='funcdef'><span class='retname'>shape = </span>GetScreenShape(<span class='argname'>screen</span>)</pre>
 <p>
-Аргументы<br/> <code>screen</code> <span
+<b>Аргументы</b><br/> <code>screen</code> <span
 class="argtype">(number)</span> – Screen handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">shape</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">shape</span> <span
 class="argtype">(number)</span> – Shape handle or zero if none<br/>
 <p>
 Return handle to the parent shape of a screen
@@ -3784,12 +3784,12 @@ FindVehicle
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>FindVehicle(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to first vehicle with specified
 tag or zero if not found<br/>
 <p><p>
@@ -3805,12 +3805,12 @@ FindVehicles
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>FindVehicles(<span class='argname'>tag, [global]</span>)</pre>
 <p>
-Аргументы<br/> <code>tag</code> <span
+<b>Аргументы</b><br/> <code>tag</code> <span
 class="argtype">(string)</span> – Tag name<br/> <span
 class="argname">global</span> <span class="argtype">(boolean,
 optional)</span> – Search in entire scene<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 vehicles with specified tag<br/>
 <p><p>
@@ -3831,10 +3831,10 @@ GetVehicleTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetVehicleTransform(<span class='argname'>vehicle</span>)</pre>
 <p>
-Аргументы<br/> <code>vehicle</code> <span
+<b>Аргументы</b><br/> <code>vehicle</code> <span
 class="argtype">(number)</span> – Vehicle handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Transform of vehicle<br/>
 <p><p>
 </p>
@@ -3849,10 +3849,10 @@ GetVehicleBody
 </h3>
 <pre class='funcdef'><span class='retname'>body = </span>GetVehicleBody(<span class='argname'>vehicle</span>)</pre>
 <p>
-Аргументы<br/> <code>vehicle</code> <span
+<b>Аргументы</b><br/> <code>vehicle</code> <span
 class="argtype">(number)</span> – Vehicle handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">body</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">body</span> <span
 class="argtype">(number)</span> – Main body of vehicle<br/>
 <p><p>
 </p>
@@ -3870,10 +3870,10 @@ GetVehicleHealth
 </h3>
 <pre class='funcdef'><span class='retname'>health = </span>GetVehicleHealth(<span class='argname'>vehicle</span>)</pre>
 <p>
-Аргументы<br/> <code>vehicle</code> <span
+<b>Аргументы</b><br/> <code>vehicle</code> <span
 class="argtype">(number)</span> – Vehicle handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">health</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">health</span> <span
 class="argtype">(number)</span> – Vehicle health (zero to one)<br/>
 <p><p>
 </p>
@@ -3888,10 +3888,10 @@ GetVehicleDriverPos
 </h3>
 <pre class='funcdef'><span class='retname'>pos = </span>GetVehicleDriverPos(<span class='argname'>vehicle</span>)</pre>
 <p>
-Аргументы<br/> <code>vehicle</code> <span
+<b>Аргументы</b><br/> <code>vehicle</code> <span
 class="argtype">(number)</span> – Vehicle handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">pos</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">pos</span> <span
 class="argtype">(table)</span> – Driver position as vector in vehicle
 space<br/>
 <p><p>
@@ -3909,7 +3909,7 @@ DriveVehicle
 </h3>
 <pre class='funcdef'><span class='retname'></span>DriveVehicle(<span class='argname'>vehicle, drive, steering, handbrake</span>)</pre>
 <p>
-Аргументы<br/> <code>vehicle</code> <span
+<b>Аргументы</b><br/> <code>vehicle</code> <span
 class="argtype">(number)</span> – Vehicle handle<br/> <span
 class="argname">drive</span> <span class="argtype">(number)</span> –
 Reverse/forward control -1 to 1<br/> <span
@@ -3917,7 +3917,7 @@ class="argname">steering</span> <span class="argtype">(number)</span> –
 Left/right control -1 to 1<br/> <code>handbrake</code>
 <span class="argtype">(boolean)</span> – Handbrake control<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 This function applies input to vehicles, allowing for autonomous
 driving. The vehicle will be turned on automatically and turned off when
@@ -3939,9 +3939,9 @@ GetPlayerPos
 </h3>
 <pre class='funcdef'><span class='retname'>position = </span>GetPlayerPos(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">position</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">position</span> <span
 class="argtype">(table)</span> – Player center position<br/>
 <p>
 Return center point of player. This function is deprecated. Use
@@ -3962,9 +3962,9 @@ GetPlayerTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetPlayerTransform(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Current player transform<br/>
 <p>
 The player transform is located at the bottom of the player. The player
@@ -3985,10 +3985,10 @@ SetPlayerTransform
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetPlayerTransform(<span class='argname'>transform</span>)</pre>
 <p>
-Аргументы<br/> <code>transform</code> <span
+<b>Аргументы</b><br/> <code>transform</code> <span
 class="argtype">(table)</span> – Desired player transform<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Instantly teleport the player to desired transform. Player velocity and
 up/down look angle will be set to zero during this process.
@@ -4006,9 +4006,9 @@ GetPlayerCameraTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetPlayerCameraTransform(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Current player camera transform<br/>
 <p>
 The player camera transform is usually the same as what you get from
@@ -4028,10 +4028,10 @@ SetPlayerSpawnTransform
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetPlayerSpawnTransform(<span class='argname'>transform</span>)</pre>
 <p>
-Аргументы<br/> <code>transform</code> <span
+<b>Аргументы</b><br/> <code>transform</code> <span
 class="argtype">(table)</span> – Desired player spawn transform<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Call this function during init to alter the player spawn transform.
 <p>
@@ -4048,9 +4048,9 @@ GetPlayerVelocity
 </h3>
 <pre class='funcdef'><span class='retname'>velocity = </span>GetPlayerVelocity(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">velocity</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">velocity</span> <span
 class="argtype">(table)</span> – Player velocity in world space as
 vector<br/>
 <p><p>
@@ -4066,11 +4066,11 @@ SetPlayerVehicle
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetPlayerVehicle(<span class='argname'>vehicle</span>)</pre>
 <p>
-Аргументы<br/> <code>vehicle</code> <span
+<b>Аргументы</b><br/> <code>vehicle</code> <span
 class="argtype">(value)</span> – Handle to vehicle or zero to not
 drive.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Drive specified vehicle.
 <p>
@@ -4087,11 +4087,11 @@ SetPlayerVelocity
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetPlayerVelocity(<span class='argname'>velocity</span>)</pre>
 <p>
-Аргументы<br/> <code>velocity</code> <span
+<b>Аргументы</b><br/> <code>velocity</code> <span
 class="argtype">(table)</span> – Player velocity in world space as
 vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -4105,9 +4105,9 @@ GetPlayerVehicle
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetPlayerVehicle(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Current vehicle handle, or zero if not
 in vehicle<br/>
 <p><p>
@@ -4126,9 +4126,9 @@ GetPlayerGrabShape
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetPlayerGrabShape(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to grabbed shape or zero if not
 grabbing.<br/>
 <p><p>
@@ -4147,9 +4147,9 @@ GetPlayerGrabBody
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetPlayerGrabBody(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to grabbed body or zero if not
 grabbing.<br/>
 <p><p>
@@ -4168,9 +4168,9 @@ GetPlayerPickShape
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetPlayerPickShape(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to picked shape or zero if
 nothing is picked<br/>
 <p><p>
@@ -4189,9 +4189,9 @@ GetPlayerPickBody
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetPlayerPickBody(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to picked body or zero if
 nothing is picked<br/>
 <p><p>
@@ -4210,9 +4210,9 @@ GetPlayerInteractShape
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetPlayerInteractShape(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to interactable shape or
 zero<br/>
 <p>
@@ -4234,9 +4234,9 @@ GetPlayerInteractBody
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetPlayerInteractBody(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to interactable body or
 zero<br/>
 <p>
@@ -4258,11 +4258,11 @@ SetPlayerScreen
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetPlayerScreen(<span class='argname'>handle</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Handle to screen or zero for no
 screen<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Set the screen the player should interact with. For the screen to
 feature a mouse pointer and receieve input, the screen also needs to
@@ -4284,9 +4284,9 @@ GetPlayerScreen
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetPlayerScreen(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to interacted screen or zero if
 none<br/>
 <p><p>
@@ -4303,11 +4303,11 @@ SetPlayerHealth
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetPlayerHealth(<span class='argname'>health</span>)</pre>
 <p>
-Аргументы<br/> <code>health</code> <span
+<b>Аргументы</b><br/> <code>health</code> <span
 class="argtype">(number)</span> – Set player health (between zero and
 one)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -4321,9 +4321,9 @@ GetPlayerHealth
 </h3>
 <pre class='funcdef'><span class='retname'>health = </span>GetPlayerHealth(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">health</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">health</span> <span
 class="argtype">(number)</span> – Current player health<br/>
 <p><p>
 </p>
@@ -4338,9 +4338,9 @@ RespawnPlayer
 </h3>
 <pre class='funcdef'><span class='retname'></span>RespawnPlayer(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Respawn player at spawn position without modifying the scene
 <p>
@@ -4356,13 +4356,13 @@ RegisterTool
 </h3>
 <pre class='funcdef'><span class='retname'></span>RegisterTool(<span class='argname'>id, name, file</span>)</pre>
 <p>
-Аргументы<br/> <code>id</code> <span
+<b>Аргументы</b><br/> <code>id</code> <span
 class="argtype">(string)</span> – Tool unique identifier<br/> <span
 class="argname">name</span> <span class="argtype">(string)</span> – Tool
 name to show in hud<br/> <code>file</code> <span
 class="argtype">(string)</span> – Path to vox file<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Register a custom tool that will show up in the player inventory and can
 be selected with scroll wheel. Do this only once per tool. You also need
@@ -4389,9 +4389,9 @@ GetToolBody
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>GetToolBody(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to currently visible tool body
 or zero if none<br/>
 <p>
@@ -4415,10 +4415,10 @@ SetToolTransform
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetToolTransform(<span class='argname'>transform</span>)</pre>
 <p>
-Аргументы<br/> <code>transform</code> <span
+<b>Аргументы</b><br/> <code>transform</code> <span
 class="argtype">(table)</span> – Tool body transform<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Apply an additional transform on the visible tool body. This can be used
 to create tool animations. You need to set this every frame from the
@@ -4438,10 +4438,10 @@ LoadSound
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>LoadSound(<span class='argname'>path</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to ogg sound file<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Sound handle<br/>
 <p><p>
 </p>
@@ -4456,10 +4456,10 @@ LoadLoop
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>LoadLoop(<span class='argname'>path</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to ogg sound file<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Loop handle<br/>
 <p><p>
 </p>
@@ -4474,7 +4474,7 @@ PlaySound
 </h3>
 <pre class='funcdef'><span class='retname'></span>PlaySound(<span class='argname'>handle, [pos], [volume]</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Sound handle<br/> <span
 class="argname">pos</span> <span class="argtype">(table,
 optional)</span> – World position as vector. Default is player
@@ -4482,7 +4482,7 @@ position.<br/> <code>volume</code> <span
 class="argtype">(number, optional)</span> – Playback volume. Default is
 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -4505,7 +4505,7 @@ PlayLoop
 </h3>
 <pre class='funcdef'><span class='retname'></span>PlayLoop(<span class='argname'>handle, [pos], [volume]</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Loop handle<br/> <span
 class="argname">pos</span> <span class="argtype">(table,
 optional)</span> – World position as vector. Default is player
@@ -4513,7 +4513,7 @@ position.<br/> <code>volume</code> <span
 class="argtype">(number, optional)</span> – Playback volume. Default is
 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Call this function continuously to play loop
 <p>
@@ -4536,10 +4536,10 @@ PlayMusic
 </h3>
 <pre class='funcdef'><span class='retname'></span>PlayMusic(<span class='argname'>path</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Music path<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -4553,9 +4553,9 @@ StopMusic
 </h3>
 <pre class='funcdef'><span class='retname'></span>StopMusic(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -4569,11 +4569,11 @@ LoadSprite
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>LoadSprite(<span class='argname'>path</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to sprite. Must be PNG or JPG
 format.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Sprite handle<br/>
 <p><p>
 </p>
@@ -4590,7 +4590,7 @@ DrawSprite
 </h3>
 <pre class='funcdef'><span class='retname'></span>DrawSprite(<span class='argname'>handle, transform, width, height, r, g, b, a, [depthTest], [additive]</span>)</pre>
 <p>
-Аргументы<br/> <code>handle</code> <span
+<b>Аргументы</b><br/> <code>handle</code> <span
 class="argtype">(number)</span> – Sprite handle<br/> <span
 class="argname">transform</span> <span class="argtype">(table)</span> –
 Transform<br/> <code>width</code> <span
@@ -4608,7 +4608,7 @@ false.<br/> <code>additive</code> <span
 class="argtype">(boolean, optional)</span> – Additive blending enabled.
 Default false.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Draw sprite in world at next frame. Call this function from the tick
 callback.
@@ -4635,10 +4635,10 @@ QueryRequire
 </h3>
 <pre class='funcdef'><span class='retname'></span>QueryRequire(<span class='argname'>layers</span>)</pre>
 <p>
-Аргументы<br/> <code>layers</code> <span
+<b>Аргументы</b><br/> <code>layers</code> <span
 class="argtype">(string)</span> – Space separate list of layers<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Set required layers for next query. Available layers are:
 <table border=0><tr><td class='header'>
@@ -4683,10 +4683,10 @@ QueryRejectVehicle
 </h3>
 <pre class='funcdef'><span class='retname'></span>QueryRejectVehicle(<span class='argname'>vehicle</span>)</pre>
 <p>
-Аргументы<br/> <code>vehicle</code> <span
+<b>Аргументы</b><br/> <code>vehicle</code> <span
 class="argtype">(number)</span> – Vehicle handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Exclude vehicle from the next query
 <p>
@@ -4704,10 +4704,10 @@ QueryRejectBody
 </h3>
 <pre class='funcdef'><span class='retname'></span>QueryRejectBody(<span class='argname'>body</span>)</pre>
 <p>
-Аргументы<br/> <code>body</code> <span
+<b>Аргументы</b><br/> <code>body</code> <span
 class="argtype">(number)</span> – Body handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Exclude body from the next query
 <p>
@@ -4725,10 +4725,10 @@ QueryRejectShape
 </h3>
 <pre class='funcdef'><span class='retname'></span>QueryRejectShape(<span class='argname'>shape</span>)</pre>
 <p>
-Аргументы<br/> <code>shape</code> <span
+<b>Аргументы</b><br/> <code>shape</code> <span
 class="argtype">(number)</span> – Shape handle<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Exclude shape from the next query
 <p>
@@ -4746,7 +4746,7 @@ QueryRaycast
 </h3>
 <pre class='funcdef'><span class='retname'>hit, dist, normal, shape = </span>QueryRaycast(<span class='argname'>origin, direction, maxDist, [radius], [rejectTransparent]</span>)</pre>
 <p>
-Аргументы<br/> <code>origin</code> <span
+<b>Аргументы</b><br/> <code>origin</code> <span
 class="argtype">(table)</span> – Raycast origin as world space
 vector<br/> <code>direction</code> <span
 class="argtype">(table)</span> – Unit length raycast direction as world
@@ -4759,7 +4759,7 @@ class="argname">rejectTransparent</span> <span class="argtype">(boolean,
 optional)</span> – Raycast through transparent materials. Default
 false.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">hit</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">hit</span> <span
 class="argtype">(boolean)</span> – True if raycast hit something<br/>
 <span class="retname">dist</span> <span class="argtype">(number)</span>
 – Hit distance from origin<br/> <span class="retname">normal</span>
@@ -4788,13 +4788,13 @@ QueryClosestPoint
 </h3>
 <pre class='funcdef'><span class='retname'>hit, point, normal, shape = </span>QueryClosestPoint(<span class='argname'>origin, maxDist</span>)</pre>
 <p>
-Аргументы<br/> <code>origin</code> <span
+<b>Аргументы</b><br/> <code>origin</code> <span
 class="argtype">(table)</span> – World space point<br/> <span
 class="argname">maxDist</span> <span class="argtype">(number)</span> –
 Maximum distance. Keep this as low as possible for good
 performance.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">hit</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">hit</span> <span
 class="argtype">(boolean)</span> – True if a point was found<br/> <span
 class="retname">point</span> <span class="argtype">(table)</span> –
 World space closest point<br/> <span class="retname">normal</span> <span
@@ -4823,12 +4823,12 @@ QueryAabbShapes
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>QueryAabbShapes(<span class='argname'>min, max</span>)</pre>
 <p>
-Аргументы<br/> <code>min</code> <span
+<b>Аргументы</b><br/> <code>min</code> <span
 class="argtype">(table)</span> – Aabb minimum point<br/> <span
 class="argname">max</span> <span class="argtype">(table)</span> – Aabb
 maximum point<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 shapes in the aabb<br/>
 <p>
@@ -4851,12 +4851,12 @@ QueryAabbBodies
 </h3>
 <pre class='funcdef'><span class='retname'>list = </span>QueryAabbBodies(<span class='argname'>min, max</span>)</pre>
 <p>
-Аргументы<br/> <code>min</code> <span
+<b>Аргументы</b><br/> <code>min</code> <span
 class="argtype">(table)</span> – Aabb minimum point<br/> <span
 class="argname">max</span> <span class="argtype">(table)</span> – Aabb
 maximum point<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">list</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">list</span> <span
 class="argtype">(table)</span> – Indexed table with handles to all
 bodies in the aabb<br/>
 <p>
@@ -4879,9 +4879,9 @@ GetLastSound
 </h3>
 <pre class='funcdef'><span class='retname'>volume, position = </span>GetLastSound(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">volume</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">volume</span> <span
 class="argtype">(number)</span> – Volume of loudest sound played last
 frame<br/> <span class="retname">position</span> <span
 class="argtype">(table)</span> – World position of loudest sound played
@@ -4899,10 +4899,10 @@ IsPointInWater
 </h3>
 <pre class='funcdef'><span class='retname'>inWater, depth = </span>IsPointInWater(<span class='argname'>point</span>)</pre>
 <p>
-Аргументы<br/> <code>point</code> <span
+<b>Аргументы</b><br/> <code>point</code> <span
 class="argtype">(table)</span> – World point as vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">inWater</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">inWater</span> <span
 class="argtype">(boolean)</span> – True if point is in water<br/> <span
 class="retname">depth</span> <span class="argtype">(number)</span> –
 Depth of point into water, or zero if not in water<br/>
@@ -4922,7 +4922,7 @@ Shoot
 </h3>
 <pre class='funcdef'><span class='retname'></span>Shoot(<span class='argname'>origin, direction, [type]</span>)</pre>
 <p>
-Аргументы<br/> <code>origin</code> <span
+<b>Аргументы</b><br/> <code>origin</code> <span
 class="argtype">(table)</span> – Origin in world space as vector<br/>
 <code>direction</code> <span
 class="argtype">(table)</span> – Unit length direction as world space
@@ -4930,7 +4930,7 @@ vector<br/> <code>type</code> <span
 class="argtype">(number, optional)</span> – 0 is regular bullet
 (default) and 1 is rocket<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Shoot bullet or rocket (used for chopper)
 <p>
@@ -4946,7 +4946,7 @@ MakeHole
 </h3>
 <pre class='funcdef'><span class='retname'></span>MakeHole(<span class='argname'>position, r0, [r1], [r2], [silent]</span>)</pre>
 <p>
-Аргументы<br/> <code>position</code> <span
+<b>Аргументы</b><br/> <code>position</code> <span
 class="argtype">(table)</span> – Hole center point<br/> <span
 class="argname">r0</span> <span class="argtype">(number)</span> – Hole
 radius for soft materials<br/> <code>r1</code> <span
@@ -4958,7 +4958,7 @@ than r1. Default zero.<br/> <code>silent</code> <span
 class="argtype">(boolean, optional)</span> – Make hole without playing
 any break sounds.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Make a hole in the environment. Radius is given in meters. Soft
 materials: glass, foliage, dirt, wood, plaster and plastic. Medium
@@ -4977,12 +4977,12 @@ Explosion
 </h3>
 <pre class='funcdef'><span class='retname'></span>Explosion(<span class='argname'>pos, size</span>)</pre>
 <p>
-Аргументы<br/> <code>pos</code> <span
+<b>Аргументы</b><br/> <code>pos</code> <span
 class="argtype">(table)</span> – Position in world space as vector<br/>
 <code>size</code> <span class="argtype">(number)</span>
 – Explosion size from 0.5 to 4.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -4996,7 +4996,7 @@ SpawnParticle
 </h3>
 <pre class='funcdef'><span class='retname'></span>SpawnParticle(<span class='argname'>type, origin, velocity, size, life</span>)</pre>
 <p>
-Аргументы<br/> <code>type</code> <span
+<b>Аргументы</b><br/> <code>type</code> <span
 class="argtype">(string)</span> – Type of particle: "smoke",
 "darksmoke", "fire" or "water"<br/> <code>origin</code>
 <span class="argtype">(table)</span> – Origon in world space as
@@ -5007,7 +5007,7 @@ class="argtype">(number)</span> – Size of particle (meters)<br/> <span
 class="argname">life</span> <span class="argtype">(number)</span> –
 Lifetime of particle (seconds)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -5021,10 +5021,10 @@ SpawnFire
 </h3>
 <pre class='funcdef'><span class='retname'></span>SpawnFire(<span class='argname'>pos</span>)</pre>
 <p>
-Аргументы<br/> <code>pos</code> <span
+<b>Аргументы</b><br/> <code>pos</code> <span
 class="argtype">(table)</span> – Position in world space as vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -5038,9 +5038,9 @@ GetFireCount
 </h3>
 <pre class='funcdef'><span class='retname'>count = </span>GetFireCount(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">count</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">count</span> <span
 class="argtype">(number)</span> – Number of active fires in level<br/>
 <p><p>
 </p>
@@ -5055,9 +5055,9 @@ GetCameraTransform
 </h3>
 <pre class='funcdef'><span class='retname'>transform = </span>GetCameraTransform(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">transform</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">transform</span> <span
 class="argtype">(table)</span> – Current camera transform<br/>
 <p><p>
 </p>
@@ -5072,13 +5072,13 @@ SetCameraTransform
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetCameraTransform(<span class='argname'>transform, [fov]</span>)</pre>
 <p>
-Аргументы<br/> <code>transform</code> <span
+<b>Аргументы</b><br/> <code>transform</code> <span
 class="argtype">(table)</span> – Desired camera transform<br/> <span
 class="argname">fov</span> <span class="argtype">(number,
 optional)</span> – Optional horizontal field of view in degrees
 (default: 90)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Override current camera transform for this frame. Call continuously to
 keep overriding.
@@ -5095,7 +5095,7 @@ PointLight
 </h3>
 <pre class='funcdef'><span class='retname'></span>PointLight(<span class='argname'>pos, r, g, b, [intensity]</span>)</pre>
 <p>
-Аргументы<br/> <code>pos</code> <span
+<b>Аргументы</b><br/> <code>pos</code> <span
 class="argtype">(table)</span> – World space light position<br/> <span
 class="argname">r</span> <span class="argtype">(number)</span> –
 Red<br/> <code>g</code> <span
@@ -5105,7 +5105,7 @@ Blue<br/> <code>intensity</code> <span
 class="argtype">(number, optional)</span> – Intensity. Default is
 1.0.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Add a temporary point light to the world for this frame. Call
 continuously for a steady light.
@@ -5124,10 +5124,10 @@ SetTimeScale
 </h3>
 <pre class='funcdef'><span class='retname'></span>SetTimeScale(<span class='argname'>scale</span>)</pre>
 <p>
-Аргументы<br/> <code>scale</code> <span
+<b>Аргументы</b><br/> <code>scale</code> <span
 class="argtype">(number)</span> – Time scale 0.1 to 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Experimental. Scale time in order to make a slow-motion effect. Audio
 will also be affected. Note that this will affect physics behavior and
@@ -5150,7 +5150,7 @@ DrawLine
 </h3>
 <pre class='funcdef'><span class='retname'></span>DrawLine(<span class='argname'>p0, p1, [r], [g], [b], [a]</span>)</pre>
 <p>
-Аргументы<br/> <code>p0</code> <span
+<b>Аргументы</b><br/> <code>p0</code> <span
 class="argtype">(table)</span> – World space point as vector<br/> <span
 class="argname">p1</span> <span class="argtype">(table)</span> – World
 space point as vector<br/> <code>r</code> <span
@@ -5161,7 +5161,7 @@ class="argtype">(number, optional)</span> – Blue<br/> <span
 class="argname">a</span> <span class="argtype">(number, optional)</span>
 – Alpha<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Draw a 3D line. In contrast to DrawDebugLine, it will not show behind
 objects. Default color is white.
@@ -5182,7 +5182,7 @@ DebugLine
 </h3>
 <pre class='funcdef'><span class='retname'></span>DebugLine(<span class='argname'>p0, p1, [r], [g], [b], [a]</span>)</pre>
 <p>
-Аргументы<br/> <code>p0</code> <span
+<b>Аргументы</b><br/> <code>p0</code> <span
 class="argtype">(table)</span> – World space point as vector<br/> <span
 class="argname">p1</span> <span class="argtype">(table)</span> – World
 space point as vector<br/> <code>r</code> <span
@@ -5193,7 +5193,7 @@ class="argtype">(number, optional)</span> – Blue<br/> <span
 class="argname">a</span> <span class="argtype">(number, optional)</span>
 – Alpha<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Draw a 3D debug overlay line in the world. Default color is white.
 <p>
@@ -5213,7 +5213,7 @@ DebugCross
 </h3>
 <pre class='funcdef'><span class='retname'></span>DebugCross(<span class='argname'>p0, [r], [g], [b], [a]</span>)</pre>
 <p>
-Аргументы<br/> <code>p0</code> <span
+<b>Аргументы</b><br/> <code>p0</code> <span
 class="argtype">(table)</span> – World space point as vector<br/> <span
 class="argname">r</span> <span class="argtype">(number, optional)</span>
 – Red<br/> <code>g</code> <span class="argtype">(number,
@@ -5222,7 +5222,7 @@ class="argtype">(number, optional)</span> – Blue<br/> <span
 class="argname">a</span> <span class="argtype">(number, optional)</span>
 – Alpha<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Draw a debug cross in the world to highlight a location. Default color
 is white.
@@ -5239,12 +5239,12 @@ DebugWatch
 </h3>
 <pre class='funcdef'><span class='retname'></span>DebugWatch(<span class='argname'>name, value</span>)</pre>
 <p>
-Аргументы<br/> <code>name</code> <span
+<b>Аргументы</b><br/> <code>name</code> <span
 class="argtype">(string)</span> – Name<br/> <span
 class="argname">value</span> <span class="argtype">(string)</span> –
 Value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Show a named valued on screen for debug purposes. Up to 32 values can be
 shown simultaneously. Values updated the current frame are drawn opaque.
@@ -5266,10 +5266,10 @@ DebugPrint
 </h3>
 <pre class='funcdef'><span class='retname'></span>DebugPrint(<span class='argname'>message</span>)</pre>
 <p>
-Аргументы<br/> <code>message</code> <span
+<b>Аргументы</b><br/> <code>message</code> <span
 class="argtype">(string)</span> – Message to display<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Display message on screen. The last 20 lines are displayed.
 <p>
@@ -5285,9 +5285,9 @@ UiMakeInteractive
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiMakeInteractive(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Calling this function will disable game input, bring up the mouse
 pointer and allow Ui interaction with the calling script without pausing
@@ -5307,9 +5307,9 @@ UiPush
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiPush(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Push state onto stack. This is used in combination with UiPop to
 remember a state and restore to that state later.
@@ -5332,9 +5332,9 @@ UiPop
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiPop(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Pop state from stack and make it the current one. This is used in
 combination with UiPush to remember a previous state and go back to it
@@ -5358,9 +5358,9 @@ UiWidth
 </h3>
 <pre class='funcdef'><span class='retname'>width = </span>UiWidth(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">width</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">width</span> <span
 class="argtype">(number)</span> – Width of draw context<br/>
 <p><p>
 </p>
@@ -5375,9 +5375,9 @@ UiHeight
 </h3>
 <pre class='funcdef'><span class='retname'>height = </span>UiHeight(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">height</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">height</span> <span
 class="argtype">(number)</span> – Height of draw context<br/>
 <p><p>
 </p>
@@ -5392,9 +5392,9 @@ UiCenter
 </h3>
 <pre class='funcdef'><span class='retname'>center = </span>UiCenter(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">center</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">center</span> <span
 class="argtype">(number)</span> – Half width of draw context<br/>
 <p><p>
 </p>
@@ -5411,9 +5411,9 @@ UiMiddle
 </h3>
 <pre class='funcdef'><span class='retname'>middle = </span>UiMiddle(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">middle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">middle</span> <span
 class="argtype">(number)</span> – Half height of draw context<br/>
 <p><p>
 </p>
@@ -5430,7 +5430,7 @@ UiColor
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiColor(<span class='argname'>r, g, b, [a]</span>)</pre>
 <p>
-Аргументы<br/> <code>r</code> <span
+<b>Аргументы</b><br/> <code>r</code> <span
 class="argtype">(number)</span> – Red channel<br/> <span
 class="argname">g</span> <span class="argtype">(number)</span> – Green
 channel<br/> <code>b</code> <span
@@ -5438,7 +5438,7 @@ class="argtype">(number)</span> – Blue channel<br/> <span
 class="argname">a</span> <span class="argtype">(number, optional)</span>
 – Alpha channel. Default 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -5453,7 +5453,7 @@ UiColorFilter
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiColorFilter(<span class='argname'>r, g, b, [a]</span>)</pre>
 <p>
-Аргументы<br/> <code>r</code> <span
+<b>Аргументы</b><br/> <code>r</code> <span
 class="argtype">(number)</span> – Red channel<br/> <span
 class="argname">g</span> <span class="argtype">(number)</span> – Green
 channel<br/> <code>b</code> <span
@@ -5461,7 +5461,7 @@ class="argtype">(number)</span> – Blue channel<br/> <span
 class="argname">a</span> <span class="argtype">(number, optional)</span>
 – Alpha channel. Default 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Color filter, multiplied to all future colors in this scope
 <p>
@@ -5481,12 +5481,12 @@ UiTranslate
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiTranslate(<span class='argname'>x, y</span>)</pre>
 <p>
-Аргументы<br/> <code>x</code> <span
+<b>Аргументы</b><br/> <code>x</code> <span
 class="argtype">(number)</span> – X component<br/> <span
 class="argname">y</span> <span class="argtype">(number)</span> – Y
 component<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Translate cursor
 <p>
@@ -5505,11 +5505,11 @@ UiRotate
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiRotate(<span class='argname'>angle</span>)</pre>
 <p>
-Аргументы<br/> <code>angle</code> <span
+<b>Аргументы</b><br/> <code>angle</code> <span
 class="argtype">(number)</span> – Angle in degrees, counter
 clockwise<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Rotate cursor
 <p>
@@ -5528,12 +5528,12 @@ UiScale
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiScale(<span class='argname'>x, [y]</span>)</pre>
 <p>
-Аргументы<br/> <code>x</code> <span
+<b>Аргументы</b><br/> <code>x</code> <span
 class="argtype">(number)</span> – X component<br/> <span
 class="argname">y</span> <span class="argtype">(number, optional)</span>
 – Y component. Default value is x.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Scale cursor either uniformly (one argument) or non-uniformly (two
 arguments)
@@ -5553,14 +5553,14 @@ UiWindow
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiWindow(<span class='argname'>width, height, [clip]</span>)</pre>
 <p>
-Аргументы<br/> <code>width</code> <span
+<b>Аргументы</b><br/> <code>width</code> <span
 class="argtype">(number)</span> – Window width<br/> <span
 class="argname">height</span> <span class="argtype">(number)</span> –
 Window height<br/> <code>clip</code> <span
 class="argtype">(boolean, optional)</span> – Clip content outside
 window. Default is false.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Set up new bounds. Calls to UiWidth, UiHeight, UiCenter and UiMiddle
 will operate in the context of the window size. If clip is set to true,
@@ -5583,9 +5583,9 @@ UiSafeMargins
 </h3>
 <pre class='funcdef'><span class='retname'>x0, y0, x1, y1 = </span>UiSafeMargins(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">x0</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">x0</span> <span
 class="argtype">(number)</span> – Left<br/> <span
 class="retname">y0</span> <span class="argtype">(number)</span> –
 Top<br/> <span class="retname">x1</span> <span
@@ -5615,10 +5615,10 @@ UiAlign
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiAlign(<span class='argname'>alignment</span>)</pre>
 <p>
-Аргументы<br/> <code>alignment</code> <span
+<b>Аргументы</b><br/> <code>alignment</code> <span
 class="argtype">(string)</span> – Alignment keywords<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 The alignment determines how content is aligned with respect to the
 cursor.
@@ -5674,9 +5674,9 @@ UiModalBegin
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiModalBegin(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Disable input for everything, except what's between UiModalBegin and
 UiModalEnd (or if modal state is popped)
@@ -5706,9 +5706,9 @@ UiModalEnd
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiModalEnd(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Disable input for everything, except what's between UiModalBegin and
 UiModalEnd Calling this function is optional. Modality is part of the
@@ -5730,9 +5730,9 @@ UiDisableInput
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiDisableInput(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Disable input
 <p>
@@ -5753,9 +5753,9 @@ UiEnableInput
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiEnableInput(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Enable input that has been previously disabled
 <p>
@@ -5779,9 +5779,9 @@ UiReceivesInput
 </h3>
 <pre class='funcdef'><span class='retname'>receives = </span>UiReceivesInput(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">receives</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">receives</span> <span
 class="argtype">(boolean)</span> – True if current context receives
 input<br/>
 <p>
@@ -5805,9 +5805,9 @@ UiGetMousePos
 </h3>
 <pre class='funcdef'><span class='retname'>x, y = </span>UiGetMousePos(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">x</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">x</span> <span
 class="argtype">(number)</span> – X coordinate<br/> <span
 class="retname">y</span> <span class="argtype">(number)</span> – Y
 coordinate<br/>
@@ -5826,12 +5826,12 @@ UiIsMouseInRect
 </h3>
 <pre class='funcdef'><span class='retname'>inside = </span>UiIsMouseInRect(<span class='argname'>w, h</span>)</pre>
 <p>
-Аргументы<br/> <code>w</code> <span
+<b>Аргументы</b><br/> <code>w</code> <span
 class="argtype">(number)</span> – Width<br/> <span
 class="argname">h</span> <span class="argtype">(number)</span> –
 Height<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">inside</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">inside</span> <span
 class="argtype">(boolean)</span> – True if mouse pointer is within
 rectangle<br/>
 <p>
@@ -5852,10 +5852,10 @@ UiWorldToPixel
 </h3>
 <pre class='funcdef'><span class='retname'>x, y, distance = </span>UiWorldToPixel(<span class='argname'>point</span>)</pre>
 <p>
-Аргументы<br/> <code>point</code> <span
+<b>Аргументы</b><br/> <code>point</code> <span
 class="argtype">(table)</span> – 3D world position as vector<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">x</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">x</span> <span
 class="argtype">(number)</span> – X coordinate<br/> <span
 class="retname">y</span> <span class="argtype">(number)</span> – Y
 coordinate<br/> <span class="retname">distance</span> <span
@@ -5881,12 +5881,12 @@ UiPixelToWorld
 </h3>
 <pre class='funcdef'><span class='retname'>direction = </span>UiPixelToWorld(<span class='argname'>x, y</span>)</pre>
 <p>
-Аргументы<br/> <code>x</code> <span
+<b>Аргументы</b><br/> <code>x</code> <span
 class="argtype">(number)</span> – X coordinate<br/> <span
 class="argname">y</span> <span class="argtype">(number)</span> – Y
 coordinate<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">direction</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">direction</span> <span
 class="argtype">(table)</span> – 3D world direction as vector<br/>
 <p>
 Convert X and Y UI coordinate to a world direction, as seen from current
@@ -5912,10 +5912,10 @@ UiBlur
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiBlur(<span class='argname'>amount</span>)</pre>
 <p>
-Аргументы<br/> <code>amount</code> <span
+<b>Аргументы</b><br/> <code>amount</code> <span
 class="argtype">(number)</span> – Blur amount (0.0 to 1.0)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Perform a gaussian blur on current screen content
 <p>
@@ -5932,12 +5932,12 @@ UiFont
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiFont(<span class='argname'>path, size</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to TTF font file<br/> <span
 class="argname">size</span> <span class="argtype">(number)</span> – Font
 size (10 to 100)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -5952,9 +5952,9 @@ UiFontHeight
 </h3>
 <pre class='funcdef'><span class='retname'>size = </span>UiFontHeight(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">size</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">size</span> <span
 class="argtype">(number)</span> – Font size<br/>
 <p><p>
 </p>
@@ -5969,13 +5969,13 @@ UiText
 </h3>
 <pre class='funcdef'><span class='retname'>w, h = </span>UiText(<span class='argname'>text, [move]</span>)</pre>
 <p>
-Аргументы<br/> <code>text</code> <span
+<b>Аргументы</b><br/> <code>text</code> <span
 class="argtype">(string)</span> – Print text at cursor location<br/>
 <code>move</code> <span class="argtype">(boolean,
 optional)</span> – Automatically move cursor vertically. Default
 false.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">w</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">w</span> <span
 class="argtype">(number)</span> – Width of text<br/> <span
 class="retname">h</span> <span class="argtype">(number)</span> – Height
 of text<br/>
@@ -5999,10 +5999,10 @@ UiGetTextSize
 </h3>
 <pre class='funcdef'><span class='retname'>w, h = </span>UiGetTextSize(<span class='argname'>text</span>)</pre>
 <p>
-Аргументы<br/> <code>text</code> <span
+<b>Аргументы</b><br/> <code>text</code> <span
 class="argtype">(string)</span> – A text string<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">w</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">w</span> <span
 class="argtype">(number)</span> – Width of text<br/> <span
 class="retname">h</span> <span class="argtype">(number)</span> – Height
 of text<br/>
@@ -6020,10 +6020,10 @@ UiWordWrap
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiWordWrap(<span class='argname'>width</span>)</pre>
 <p>
-Аргументы<br/> <code>width</code> <span
+<b>Аргументы</b><br/> <code>width</code> <span
 class="argtype">(number)</span> – Maximum width of text<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -6038,7 +6038,7 @@ UiTextOutline
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiTextOutline(<span class='argname'>r, g, b, a, [thickness]</span>)</pre>
 <p>
-Аргументы<br/> <code>r</code> <span
+<b>Аргументы</b><br/> <code>r</code> <span
 class="argtype">(number)</span> – Red channel<br/> <span
 class="argname">g</span> <span class="argtype">(number)</span> – Green
 channel<br/> <code>b</code> <span
@@ -6048,7 +6048,7 @@ channel<br/> <code>thickness</code> <span
 class="argtype">(number, optional)</span> – Outline thickness. Default
 is 0.1<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -6064,7 +6064,7 @@ UiTextShadow
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiTextShadow(<span class='argname'>r, g, b, a, [distance], [blur]</span>)</pre>
 <p>
-Аргументы<br/> <code>r</code> <span
+<b>Аргументы</b><br/> <code>r</code> <span
 class="argtype">(number)</span> – Red channel<br/> <span
 class="argname">g</span> <span class="argtype">(number)</span> – Green
 channel<br/> <code>b</code> <span
@@ -6076,7 +6076,7 @@ class="argtype">(number, optional)</span> – Shadow distance. Default is
 class="argtype">(number, optional)</span> – Shadow blur. Default is
 0.5<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p><p>
 </p>
 <pre class='example'>
@@ -6092,12 +6092,12 @@ UiRect
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiRect(<span class='argname'>w, h</span>)</pre>
 <p>
-Аргументы<br/> <code>w</code> <span
+<b>Аргументы</b><br/> <code>w</code> <span
 class="argtype">(number)</span> – Width<br/> <span
 class="argname">h</span> <span class="argtype">(number)</span> –
 Height<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Draw solid rectangle at cursor position
 <p>
@@ -6124,10 +6124,10 @@ UiImage
 </h3>
 <pre class='funcdef'><span class='retname'>w, h = </span>UiImage(<span class='argname'>path</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to image (PNG or JPG format)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">w</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">w</span> <span
 class="argtype">(number)</span> – Image width<br/> <span
 class="retname">h</span> <span class="argtype">(number)</span> – Image
 height<br/>
@@ -6151,10 +6151,10 @@ UiGetImageSize
 </h3>
 <pre class='funcdef'><span class='retname'>w, h = </span>UiGetImageSize(<span class='argname'>path</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to image (PNG or JPG format)<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">w</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">w</span> <span
 class="argtype">(number)</span> – Image width<br/> <span
 class="retname">h</span> <span class="argtype">(number)</span> – Image
 height<br/>
@@ -6173,7 +6173,7 @@ UiImageBox
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiImageBox(<span class='argname'>path, width, height, borderWidth, borderHeight</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to image (PNG or JPG format)<br/>
 <code>width</code> <span class="argtype">(number)</span>
 – Width<br/> <code>height</code> <span
@@ -6182,7 +6182,7 @@ class="argname">borderWidth</span> <span class="argtype">(number)</span>
 – Border width<br/> <code>borderHeight</code> <span
 class="argtype">(number)</span> – Border height<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Draw 9-slice image at cursor position. Width should be at least
 2*borderWidth. Height should be at least 2*borderHeight.
@@ -6199,7 +6199,7 @@ UiSound
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiSound(<span class='argname'>path, [volume], [pitch], [pan]</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to sound file (OGG format)<br/>
 <code>volume</code> <span class="argtype">(number,
 optional)</span> – Playback volume. Default 1.0<br/> <span
@@ -6209,7 +6209,7 @@ class="argname">pan</span> <span class="argtype">(number,
 optional)</span> – Playback stereo panning (-1.0 to 1.0). Default
 0.0.<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 UI sounds are not affected by acoustics simulation. Use LoadSound /
 PlaySound for that.
@@ -6226,13 +6226,13 @@ UiSoundLoop
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiSoundLoop(<span class='argname'>path, [volume]</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to looping sound file (OGG
 format)<br/> <code>volume</code> <span
 class="argtype">(number, optional)</span> – Playback volume. Default
 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Call this continuously to keep playing loop. UI sounds are not affected
 by acoustics simulation. Use LoadLoop / PlayLoop for that.
@@ -6251,12 +6251,12 @@ UiMute
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiMute(<span class='argname'>amount, [music]</span>)</pre>
 <p>
-Аргументы<br/> <code>amount</code> <span
+<b>Аргументы</b><br/> <code>amount</code> <span
 class="argtype">(number)</span> – Mute by this amount (0.0 to 1.0)<br/>
 <code>music</code> <span class="argtype">(boolean,
 optional)</span> – Mute music as well<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Mute game audio and optionally music for the next frame. Call
 continuously to stay muted.
@@ -6275,7 +6275,7 @@ UiButtonImageBox
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiButtonImageBox(<span class='argname'>path, borderWidth, borderHeight, [r], [g], [b], [a]</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(string)</span> – Path to image (PNG or JPG format)<br/>
 <code>borderWidth</code> <span
 class="argtype">(number)</span> – Border width<br/> <span
@@ -6289,7 +6289,7 @@ optional)</span> – Blue multiply. Default 1.0<br/> <span
 class="argname">a</span> <span class="argtype">(number, optional)</span>
 – Alpha channel. Default 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Set up 9-slice image to be used as background for buttons.
 <p>
@@ -6308,7 +6308,7 @@ UiButtonHoverColor
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiButtonHoverColor(<span class='argname'>r, g, b, [a]</span>)</pre>
 <p>
-Аргументы<br/> <code>r</code> <span
+<b>Аргументы</b><br/> <code>r</code> <span
 class="argtype">(number)</span> – Red multiply<br/> <span
 class="argname">g</span> <span class="argtype">(number)</span> – Green
 multiply<br/> <code>b</code> <span
@@ -6316,7 +6316,7 @@ class="argtype">(number)</span> – Blue multiply<br/> <span
 class="argname">a</span> <span class="argtype">(number, optional)</span>
 – Alpha channel. Default 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Button color filter when hovering mouse pointer.
 <p>
@@ -6335,7 +6335,7 @@ UiButtonPressColor
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiButtonPressColor(<span class='argname'>r, g, b, [a]</span>)</pre>
 <p>
-Аргументы<br/> <code>r</code> <span
+<b>Аргументы</b><br/> <code>r</code> <span
 class="argtype">(number)</span> – Red multiply<br/> <span
 class="argname">g</span> <span class="argtype">(number)</span> – Green
 multiply<br/> <code>b</code> <span
@@ -6343,7 +6343,7 @@ class="argtype">(number)</span> – Blue multiply<br/> <span
 class="argname">a</span> <span class="argtype">(number, optional)</span>
 – Alpha channel. Default 1.0<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 Button color filter when pressing down.
 <p>
@@ -6362,10 +6362,10 @@ UiButtonPressDist
 </h3>
 <pre class='funcdef'><span class='retname'></span>UiButtonPressDist(<span class='argname'>dist</span>)</pre>
 <p>
-Аргументы<br/> <code>dist</code> <span
+<b>Аргументы</b><br/> <code>dist</code> <span
 class="argtype">(number)</span> – Press distance<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">none</span>
+<b>Возвращаемое значение</b><br/> <span class="retname">none</span>
 <p>
 The button offset when being pressed
 <p>
@@ -6384,13 +6384,13 @@ UiTextButton
 </h3>
 <pre class='funcdef'><span class='retname'>pressed = </span>UiTextButton(<span class='argname'>text, [w], [h]</span>)</pre>
 <p>
-Аргументы<br/> <code>text</code> <span
+<b>Аргументы</b><br/> <code>text</code> <span
 class="argtype">(string)</span> – Text on button<br/> <span
 class="argname">w</span> <span class="argtype">(number, optional)</span>
 – Button width<br/> <code>h</code> <span
 class="argtype">(number, optional)</span> – Button height<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">pressed</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">pressed</span> <span
 class="argtype">(boolean)</span> – True if user clicked button<br/>
 <p><p>
 </p>
@@ -6407,13 +6407,13 @@ UiImageButton
 </h3>
 <pre class='funcdef'><span class='retname'>pressed = </span>UiImageButton(<span class='argname'>path, [w], [h]</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(number)</span> – Image path (PNG or JPG file)<br/>
 <code>w</code> <span class="argtype">(number,
 optional)</span> – Button width<br/> <code>h</code>
 <span class="argtype">(number, optional)</span> – Button height<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">pressed</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">pressed</span> <span
 class="argtype">(boolean)</span> – True if user clicked button<br/>
 <p><p>
 </p>
@@ -6430,12 +6430,12 @@ UiBlankButton
 </h3>
 <pre class='funcdef'><span class='retname'>pressed = </span>UiBlankButton(<span class='argname'>w, h</span>)</pre>
 <p>
-Аргументы<br/> <code>w</code> <span
+<b>Аргументы</b><br/> <code>w</code> <span
 class="argtype">(number)</span> – Button width<br/> <span
 class="argname">h</span> <span class="argtype">(number)</span> – Button
 height<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">pressed</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">pressed</span> <span
 class="argtype">(boolean)</span> – True if user clicked button<br/>
 <p><p>
 </p>
@@ -6452,7 +6452,7 @@ UiSlider
 </h3>
 <pre class='funcdef'><span class='retname'>value, done = </span>UiSlider(<span class='argname'>path, axis, current, min, max</span>)</pre>
 <p>
-Аргументы<br/> <code>path</code> <span
+<b>Аргументы</b><br/> <code>path</code> <span
 class="argtype">(number)</span> – Image path (PNG or JPG file)<br/>
 <code>axis</code> <span class="argtype">(string)</span>
 – Drag axis, must be "x" or "y"<br/> <span
@@ -6462,7 +6462,7 @@ class="argtype">(number)</span> – Minimum value<br/> <span
 class="argname">max</span> <span class="argtype">(number)</span> –
 Maximum value<br/>
 <p>
-Возвращаемое значение<br/> <span class="retname">value</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">value</span> <span
 class="argtype">(number)</span> – New value, same as current if not
 changed<br/> <span class="retname">done</span> <span
 class="argtype">(boolean)</span> – True if user is finished changing
@@ -6480,9 +6480,9 @@ UiGetScreen
 </h3>
 <pre class='funcdef'><span class='retname'>handle = </span>UiGetScreen(<span class='argname'></span>)</pre>
 <p>
-Аргументы<br/> <code>none</code>
+<b>Аргументы</b><br/> <code>none</code>
 <p>
-Возвращаемое значение<br/> <span class="retname">handle</span> <span
+<b>Возвращаемое значение</b><br/> <span class="retname">handle</span> <span
 class="argtype">(number)</span> – Handle to the screen running this
 script or zero if none.<br/>
 <p><p>

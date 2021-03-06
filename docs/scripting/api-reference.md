@@ -22,20 +22,20 @@ API Teardown использует только собственные типы L
  Описание
 </td></tr>
 <tr><td class='first' valign='top'>
-function init()
+function `init()`
 </td><td valign='top'> 
 Вызывается один раз во время загрузки
 </td></tr><tr><td class='first' valign='top'>
-function tick(dt)
+function `tick(dt)`
 </td><td valign='top'> 
 Вызывается ровно один раз за кадр. Временной шаг может меняться, но всегда
 от 0,0 до 0,0333333
 </td></tr><tr><td class='first' valign='top'>
-function update(dt) 
+function `update(dt)`
 </td><td valign='top'> 
 Вызывается с фиксированной частотой обновления, но не более двух раз за кадр. Временной шаг всегда 0,0166667 (60 обновлений в секунду). В зависимости от частоты кадров он может вообще не вызываться для определенного кадра.
 </td></tr><tr><td class='first' valign='top'>
-function draw()
+function `draw()`
 </td><td valign='top'> 
 Вызывается при отрисовке 2D-оверлея после сцены, но до стандартного HUD. Функции пользовательского интерфейса можно использовать только из этого обратного вызова.
 </td></tr><table/>

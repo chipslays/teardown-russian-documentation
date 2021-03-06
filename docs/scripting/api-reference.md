@@ -573,7 +573,7 @@ class="argtype">(number)</span> – Значение параметра<br/>
 <p><p>
 </p>
 <pre class='example'>
---Retrieve blinkcount parameter, or set to 5 if omitted
+--Получить параметр blinkcount или установить значение 5, если не указано.
 parameterBlinkCount = GetIntParameter("blinkcount", 5)
 
 </pre>
@@ -593,7 +593,7 @@ class="argtype">(number)</span> – Значение параметра<br/>
 <p><p>
 </p>
 <pre class='example'>
---Retrieve speed parameter, or set to 10.0 if omitted
+--Получить параметр скорости или установить значение 10.0, если не указано
 parameterSpeed = GetFloatParameter("speed", 10.0)
 
 </pre>
@@ -613,7 +613,7 @@ class="argtype">(boolean)</span> – Значение параметра<br/>
 <p><p>
 </p>
 <pre class='example'>
---Retrieve playsound parameter, or false if omitted
+--Получить параметр playsound или false, если не указан
 parameterPlaySound = GetBoolParameter("playsound", false)
 
 </pre>
@@ -633,7 +633,7 @@ class="argtype">(string)</span> – Значение параметра<br/>
 <p><p>
 </p>
 <pre class='example'>
---Retrieve mode parameter, or "idle" if omitted
+--Получить параметр режима или "бездействовать", если не указан
 parameterMode = GetSrtingParameter("mode", "idle")
 
 </pre>
@@ -647,8 +647,7 @@ GetVersion
 <b>Аргументы</b><br/> <code>none</code>
 <p>
 <b>Возвращаемое значение</b><br/> <code>version</code> <span
-class="argtype">(string)</span> – Dot separated string of current
-version of the game<br/>
+class="argtype">(string)</span> – Разделенная точками строка текущей версии игры<br/>
 <p><p>
 </p>
 <pre class='example'>
@@ -667,15 +666,14 @@ HasVersion
 class="argtype">(string)</span> – Reference version<br/>
 <p>
 <b>Возвращаемое значение</b><br/> <code>match</code> <span
-class="argtype">(boolean)</span> – True if current version is at least
-provided one<br/>
+class="argtype">(boolean)</span> – true если хотя бы одна версия совпадает<br/>
 <p><p>
 </p>
 <pre class='example'>
 if HasVersion("0.6.0") then
-    --conditional code that only works on 0.6.0 or above
+    --условный код, который работает только на версии 0.6.0 или выше
 else
-    --legacy code that works on earlier versions
+    --устаревший код, работающий в более ранних версиях
 end
 
 </pre>
@@ -689,11 +687,9 @@ GetTime
 <b>Аргументы</b><br/> <code>none</code>
 <p>
 <b>Возвращаемое значение</b><br/> <code>time</code> <span
-class="argtype">(number)</span> – The time in seconds since level was
-started<br/>
+class="argtype">(number)</span> – Время в секундах с момента запуска уровня<br/>
 <p>
-Returns running time of this script. If called from update, this returns
-the simulated time, otherwise it returns wall time.
+Возвращает время работы этого скрипта. Если вызывается из обновления, возвращается смоделированное время, в противном случае возвращается время стены.
 <p>
 </p>
 <pre class='example'>
@@ -710,12 +706,9 @@ GetTimeStep
 <b>Аргументы</b><br/> <code>none</code>
 <p>
 <b>Возвращаемое значение</b><br/> <code>dt</code> <span
-class="argtype">(number)</span> – The timestep in seconds<br/>
+class="argtype">(number)</span> – Временной шаг в секундах<br/>
 <p>
-Returns timestep of the last frame. If called from update, this returns
-the simulation time step, which is always one 60th of a second
-(0.0166667). If called from tick or draw it returns the actual time
-since last frame.
+Возвращает временной шаг последнего кадра. Если вызывается из обновления, это возвращает временной шаг моделирования, который всегда составляет одну 60-ю долю секунды (0.0166667). Если вызывается из тика или рисования, он возвращает фактическое время, прошедшее с последнего кадра.
 <p>
 </p>
 <pre class='example'>
@@ -730,18 +723,16 @@ InputPressed
 <pre class='funcdef'><span class='retname'>pressed = </span>InputPressed(<span class='argname'>input</span>)</pre>
 <p>
 <b>Аргументы</b><br/> <code>input</code> <span
-class="argtype">(string)</span> – The input identifier<br/>
+class="argtype">(string)</span> – Идентификатор ввода<br/>
 <p>
 <b>Возвращаемое значение</b><br/> <code>pressed</code> <span
-class="argtype">(boolean)</span> – True if input was pressed during last
-frame<br/>
+class="argtype">(boolean)</span> – true, если ввод был нажат во время последнего кадра<br/>
 <p><p>
 </p>
 <pre class='example'>
 if InputPressed("interact") then
     ...
 end
-
 </pre>
 <hr/>
 <a name='InputReleased'></a>
@@ -751,18 +742,16 @@ InputReleased
 <pre class='funcdef'><span class='retname'>pressed = </span>InputReleased(<span class='argname'>input</span>)</pre>
 <p>
 <b>Аргументы</b><br/> <code>input</code> <span
-class="argtype">(string)</span> – The input identifier<br/>
+class="argtype">(string)</span> – Идентификатор ввода<br/>
 <p>
 <b>Возвращаемое значение</b><br/> <code>pressed</code> <span
-class="argtype">(boolean)</span> – True if input was released during
-last frame<br/>
+class="argtype">(boolean)</span> – true, если ввод был нажат во время последнего кадра<br/>
 <p><p>
 </p>
 <pre class='example'>
 if InputReleased("interact") then
     ...
 end
-
 </pre>
 <hr/>
 <a name='InputDown'></a>
@@ -772,11 +761,10 @@ InputDown
 <pre class='funcdef'><span class='retname'>pressed = </span>InputDown(<span class='argname'>input</span>)</pre>
 <p>
 <b>Аргументы</b><br/> <code>input</code> <span
-class="argtype">(string)</span> – The input identifier<br/>
+class="argtype">(string)</span> – Идентификатор ввода<br/>
 <p>
 <b>Возвращаемое значение</b><br/> <code>pressed</code> <span
-class="argtype">(boolean)</span> – True if input is currently held
-down<br/>
+class="argtype">(boolean)</span> – Истинно, если ввод в настоящее время удерживается<br/>
 <p><p>
 </p>
 <pre class='example'>

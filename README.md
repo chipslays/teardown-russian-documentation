@@ -1,6 +1,6 @@
 # 🇷🇺 TEARDOWN
 
-Неофициальный перевод документации к игре Teardown от сообщества. / An unofficial translation of the Teardown game documentation from the community.
+Неофициальный перевод [документации](https://teardowngame.com/modding) от сообщества к игре [Teardown](https://store.steampowered.com/app/1167630/Teardown). / An unofficial translation of the [Teardown](https://store.steampowered.com/app/1167630/Teardown) game [documentation](https://teardowngame.com/modding/) by the community.
 
 ## Оглавление
 * Modding

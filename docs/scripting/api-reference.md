@@ -862,7 +862,7 @@ layers.<br/>
 <p>
 <b>Возвращаемое значение</b><br/> <code>none</code>
 <p>
-Start a level
+Запустить уровень
 <p>
 </p>
 <pre class='example'>
@@ -904,7 +904,7 @@ Restart
 <p>
 <b>Возвращаемое значение</b><br/> <code>none</code>
 <p>
-Restart level
+Перезапустить уровень
 <p>
 </p>
 <pre class='example'>
@@ -924,7 +924,7 @@ Menu
 <p>
 <b>Возвращаемое значение</b><br/> <code>none</code>
 <p>
-Go to main menu
+Вернуться в главное меню
 <p>
 </p>
 <pre class='example'>

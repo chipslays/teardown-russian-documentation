@@ -1003,10 +1003,10 @@ HasKey
 <pre class='funcdef'><span class='retname'>exists = </span>HasKey(<span class='argname'>key</span>)</pre>
 <p>
 <b>Аргументы</b><br/> <code>key</code> <span
-class="argtype">(string)</span> – Registry key<br/>
+class="argtype">(string)</span> – Ключ<br/>
 <p>
 <b>Возвращаемое значение</b><br/> <code>exists</code> <span
-class="argtype">(boolean)</span> – True if key exists<br/>
+class="argtype">(boolean)</span> – True если ключ существует<br/>
 <p>
 Returns true if the registry contains a certain key
 <p>
